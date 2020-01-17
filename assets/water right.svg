@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="93.956" height="120.304" viewBox="0 0 93.956 120.304">
+  <g id="water_right" data-name="water right" transform="translate(-546.054 -400.309)">
+    <g id="Group_35" data-name="Group 35" transform="translate(560.108 468.42)">
+      <path id="Path_30" data-name="Path 30" d="M40.446-16.489s-8.168,14.05-8.168,26.683,3.228,25.51-9.4,25.51A22.873,22.873,0,0,1,0,12.831C0,.2,40.446-16.489,40.446-16.489Z" transform="translate(0 16.489)" fill="#fc3030"/>
+      <path id="Path_31" data-name="Path 31" d="M3.92,0c1.4,0,.782,3.14.782,6.055s.622,4.5-.782,4.5S0,8.631,0,5.716,2.516,0,3.92,0Z" transform="translate(24.321 36.435) rotate(39)" fill="#fff"/>
+    </g>
+    <g id="Group_36" data-name="Group 36" transform="translate(606.007 426.335) rotate(103)">
+      <path id="Path_30-2" data-name="Path 30" d="M40.446,0s-8.168,14.05-8.168,26.683,3.228,25.51-9.4,25.51A22.873,22.873,0,0,1,0,29.32C0,16.687,40.446,0,40.446,0Z" transform="translate(0)" fill="#fc3030"/>
+      <path id="Path_31-2" data-name="Path 31" d="M3.92,0c1.4,0,.782,3.14.782,6.055s.622,4.5-.782,4.5S0,8.631,0,5.716,2.516,0,3.92,0Z" transform="translate(24.321 36.435) rotate(39)" fill="#fff"/>
+    </g>
+    <g id="Group_37" data-name="Group 37" transform="translate(640.009 449.658) rotate(161)">
+      <path id="Path_30-3" data-name="Path 30" d="M40.446,0s-8.168,14.05-8.168,26.683,3.228,25.51-9.4,25.51A22.873,22.873,0,0,1,0,29.32C0,16.687,40.446,0,40.446,0Z" fill="#fc3030"/>
+      <path id="Path_31-3" data-name="Path 31" d="M3.92,0c1.4,0,.782,3.14.782,6.055s.622,4.5-.782,4.5S0,8.631,0,5.716,2.516,0,3.92,0Z" transform="translate(24.321 36.435) rotate(39)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

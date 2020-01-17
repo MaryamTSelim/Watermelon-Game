@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220" height="66" viewBox="0 0 220 66">
+  <defs>
+    <filter id="scoreBox" x="0" y="0" width="220" height="66" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#1e5e0f"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#scoreBox)">
+    <g id="scoreBox-2" data-name="scoreBox" transform="translate(9 9)" fill="none" stroke="#1e5e0f" stroke-width="2">
+      <rect width="202" height="48" rx="24" stroke="none"/>
+      <rect x="1" y="1" width="200" height="46" rx="23" fill="none"/>
+    </g>
+  </g>
+</svg>

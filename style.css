@@ -1,73 +1,35 @@
-*{
-    
+* {
     font-family: "Comic Sans MS", cursive, sans-serif;
     color: #214D09;
     font-weight: 700;
     font-size: large;
-    /*cursor: url('assets/knife.png'), auto;*/
-    cursor: url("assets/knife.png"), auto; 
+    padding: 0;
+    margin: 0;
 }
 
-html,body{
-    margin: 0 !important;
-    padding: 0 !important;
-    
+html,
+body {
+    height: 100%
 }
 
-.header{
+.header {
     display: flex;
     width: 25%;
     justify-content: space-between;
 }
 
-.heart{
+.heart {
     width: 25%;
 }
 
-.score{
+.score {
     border: 2px solid #214D09;
     box-shadow: #214D0970;
     border-radius: 40px;
     width: 35%;
 }
-canvas{
-    border:1px solid #000000;
-}
-.container{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    z-index: 100;
 
-}
-.logo{
-    width: 25%;
-    margin: 4%;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-.btn{
-    background-color: #fc3030;
-    margin: 1%;
-    color: white;
-    border-radius: 30px;
-    width: 20%;
-    border: none;
-    justify-content: center;
-    text-align: center;
-    padding:5px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.btn:hover{
-    background-color: #fc303090;
-    border: 2px solid #fc3030; 
-}
-.leaves{
-    position: absolute;
-    display: flex;
-    width: 100vw;
-    height: 100vh;
+canvas {
+    width: 100%;
+    height: 100%;
 }

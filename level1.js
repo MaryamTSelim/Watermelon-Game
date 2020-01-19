@@ -1,86 +1,242 @@
-var canvas = document.getElementById('myCanvas'), 
-ctx = canvas.getContext('2d'), 
-heartX = 80, heartY, watermelon_halfX = 80, watermelon_halfY = 100, sliceX, sliceY, seedX, seedY = 0;
+//select canavs, set canavs width + height
+var canvas = $('#myCanvas')[0];
+ctx = canvas.getContext('2d');
+canvas.width = window.innerWidth - 5;
+canvas.height = window.innerHeight - 7;
+
+
+//declare variables
+var heartX = 80,
+    heartY, sliceX, sliceY, seedX, seedY = 0;
 var no_level = 1;
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
 
-ctx.font = "23px Comic Sans MS";
-ctx.fillStyle = "#214D09";
-ctx.fillText("LEVEL " + no_level, 10, 40);
 
-function draw_background()
-{
-    background_img = new Image();
-    background_img.src = "assets/background.svg";
-    background_img.onload = function(){
-    ctx.drawImage(background_img, 0, 0);
-} }
+//water variables
+var waterRX, waterRY,
+    waterLX, waterLY,
+    waterW = 70,
+    waterH = 90;
 
-function draw_score_box(){
-    score_box = new Image();
-    score_box.src = "assets/scoreBox.svg";
-    score_box.onload = function(){
-    ctx.drawImage(score_box, 250, 10, 170, 45); //
-}}
 
-function draw_heart(no_hearts)
-{
-    heart = new Image();
-    heart.src = "assets/heart.png";
-    heart.onload = function(){
-    for(var i = 0; i < no_hearts; i++) {
-        heartX += 40;
-        heartY = 20;
-        ctx.drawImage(heart, heartX, heartY, 25, 25);
-    }
-} }
+//character variables
+var charWidth = 50,
+    charHieght = 60,
+    charX = canvas.width / 2 - (charWidth / 2),
+    charY = canvas.height - charHieght - 10;
 
-function draw_watermelon_half()
-{
-    watermelon_half = new Image();
-    watermelon_half.src = "assets/watermelon_half.svg";
-    watermelon_half.onload = function(){
-        for(let i = 0; i < 7; i++){
-            watermelon_halfX += 150;
-            watermelon_halfY = 100;
-            ctx.drawImage(watermelon_half, watermelon_halfX, watermelon_halfY, 130,130);
-            watermelon_halfY = 200;
-            ctx.drawImage(watermelon_half, watermelon_halfX, watermelon_halfY, 130,130);
-            watermelon_halfY = 300;
-            ctx.drawImage(watermelon_half, watermelon_halfX, watermelon_halfY, 130,130);
+//knife variables
+var wKnife = 40,
+    hKnife = 55,
+    xKnife = charX + charWidth * 0.9 - wKnife / 2,
+    yKnife = initialY = charY;
+
+
+//watermelon function constructor
+function Watermelon(xPoint, yPoint, wSize, hSize) {
+    this.xPoint = xPoint;
+    this.yPoint = yPoint;
+    this.wSize = wSize;
+    this.hSize = hSize;
+}
+
+
+//create watermelon objects function
+function createWatermelones() {
+    let index2 = 0,
+        index3 = 0;
+    for (let index = 0; index < 21; index++) {
+        if (index < 7) {
+            watermelons.push(new Watermelon((index * 150) + 100, 80, 80, 80));
+        } else if (index < 14) {
+            watermelons.push(new Watermelon((index2 * 150) + 100, 200, 80, 80));
+            index2++;
+        } else {
+            watermelons.push(new Watermelon((index3 * 150) + 100, 320, 80, 80));
+            index3++;
         }
-} }
+    }
+}
 
-function draw_slice()
-{
-    slice = new Image();
-    slice.src = "assets/heart.png";
-    slice.onload = function(){
+
+//draw font function
+function drawFont() {
+    ctx.font = "23px Comic Sans MS";
+    ctx.fillStyle = "#214D09";
+    ctx.fillText("LEVEL " + no_level, 10, 40);
+}
+
+
+//draw character function
+character = new Image();
+character.src = "assets/character.png"
+
+function drawCharacter(charX, charY, charWidth, charHieght) {
+    ctx.drawImage(character, charX, charY, charWidth, charHieght)
+
+}
+
+
+//draw background function
+background_img = new Image();
+background_img.src = "assets/background.svg";
+
+function draw_background() {
+    ctx.drawImage(background_img, 0, 0);
+
+}
+
+
+//draw score box function
+score_box = new Image();
+score_box.src = "assets/scoreBox.svg";
+
+function draw_score_box() {
+    ctx.drawImage(score_box, 250, 10, 170, 45);
+
+}
+
+
+//draw heart function
+heart = new Image();
+heart.src = "assets/heart.png";
+
+function draw_heart(no_hearts) {
+    ctx.drawImage(heart, 120, 20, 25, 25);
+    ctx.drawImage(heart, 160, 20, 25, 25);
+    ctx.drawImage(heart, 200, 20, 25, 25);
+}
+
+
+//draw watermelon function
+watermelon_half = new Image();
+watermelon_half.src = "assets/watermelon_half.svg";
+
+function draw_watermelon_half() {
+    for (let i = 0; i < watermelons.length; i++) {
+        if (watermelons[i] !== null) {
+            ctx.drawImage(watermelon_half, watermelons[i].xPoint, watermelons[i].yPoint, watermelons[i].wSize, watermelons[i].hSize);
+        }
+    }
+
+}
+
+
+//draw slice function
+slice = new Image();
+slice.src = "assets/slice.svg";
+
+function draw_slice(sliceX, sliceY) {
     ctx.drawImage(slice, sliceX, sliceY);
-} }
 
-function draw_seed()
-{
-    seed = new Image();
-    seed.src = "assets/heart.png";
-    seed.onload = function(){
+}
+
+
+//draw seed function
+seed = new Image();
+seed.src = "assets/seed.svg";
+
+function draw_seed() {
     ctx.drawImage(seed, seedX, seedY);
-} }
+}
 
 
-function draw_knife()
-{
-    knife = new Image();
-    knife.src = "assets/knife.svg";
-    knife.onload = function(){
-    ctx.drawImage(knife, knifeX, knifeY, 70, 70);
-}}
+//draw water function
+waterL = new Image();
+waterL.src = "assets/waterLeft.svg";
+waterR = new Image();
+waterR.src = "assets/waterRight.svg";
 
-draw_background();
-draw_heart(3);
-draw_score_box();
-draw_watermelon_half();
-knifeX = 500;
-knifeY = 500;
-draw_knife();
+function draw_water(waterLX, waterLY, waterRX, waterRY) {
+    ctx.drawImage(waterL, waterLX, waterLY, waterW, waterH);
+    ctx.drawImage(waterR, waterRX, waterRY, waterW, waterH);
+
+}
+
+
+//draw knife function
+knife = new Image();
+knife.src = "assets/knife.svg";
+
+function draw_knife(xKnife, yKnife, wKnife, hKnife) {
+    ctx.drawImage(knife, xKnife, yKnife, wKnife, hKnife);
+}
+
+//create watermelon objects
+var watermelons = [];
+createWatermelones();
+
+
+function drawGame() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    drawFont();
+    draw_heart(3);
+    draw_score_box();
+
+    //draw knife
+    draw_knife(xKnife, yKnife, wKnife, hKnife);
+
+    //draw character
+    drawCharacter(charX, charY, charWidth, charHieght);
+
+    //draw watermelons
+    draw_watermelon_half()
+}
+
+drawGame();
+
+//control character movement
+document.onkeydown = function(e) {
+    if (e.keyCode === 39 && charX <= canvas.width - charWidth - 10) {
+        charX = charX + 7;
+        xKnife = xKnife + 7;
+
+    } else if (e.keyCode === 37 && charX > 10) {
+        charX = charX - 7;
+        xKnife = xKnife - 7;
+    }
+
+    drawGame();
+}
+
+
+//throw knife + cut watermelon + show water
+document.onkeypress = function(e) {
+    if (e.keyCode === 32) {
+
+        $('#throwKnife')[0].play();
+        var knifeFlag = true;
+        setInterval(function() {
+            if (yKnife >= 20 && knifeFlag) {
+                yKnife -= 5;
+                drawGame();
+
+                watermelons.forEach(el => {
+                    if (el !== null && el.xPoint <= xKnife && (el.xPoint + el.wSize) >= xKnife && el.yPoint <= yKnife && (el.yPoint + el.hSize / 2) >= yKnife) {
+                        knifeFlag = false;
+                        $('#stabWatermelon')[0].play();
+
+                        waterLX = el.xPoint, waterLY = el.yPoint;
+                        waterRX = el.xPoint + waterW + 20, waterRY = el.yPoint;
+
+                        watermelons[watermelons.indexOf(el)] = null;
+                        ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+                        drawFont();
+                        draw_heart(3);
+                        draw_score_box();
+                        draw_watermelon_half();
+                        draw_water(waterLX, waterLY, waterRX, waterRY);
+                        yKnife = initialY;
+                        draw_knife(xKnife, yKnife, wKnife, hKnife);
+                        drawCharacter(charX, charY, charWidth, charHieght);
+
+                    }
+                });
+            }
+        }, 10);
+    }
+}
+
+$(document).ready(() => {
+    drawGame();
+})

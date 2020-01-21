@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="152.716" height="177.238" viewBox="0 0 152.716 177.238">
+  <g id="hole_water" data-name="hole water" transform="translate(-546.054 -400.309)">
+    <g id="water_right" data-name="water right">
+      <g id="Group_35" data-name="Group 35" transform="translate(560.108 468.42)">
+        <path id="Path_30" data-name="Path 30" d="M40.446-16.489s-8.168,14.05-8.168,26.683,3.228,25.51-9.4,25.51A22.873,22.873,0,0,1,0,12.831C0,.2,40.446-16.489,40.446-16.489Z" transform="translate(0 16.489)" fill="#fc3030"/>
+        <path id="Path_31" data-name="Path 31" d="M3.92,0c1.4,0,.782,3.14.782,6.055s.622,4.5-.782,4.5S0,8.631,0,5.716,2.516,0,3.92,0Z" transform="translate(24.321 36.435) rotate(39)" fill="#fff"/>
+      </g>
+      <g id="Group_36" data-name="Group 36" transform="translate(606.007 426.335) rotate(103)">
+        <path id="Path_30-2" data-name="Path 30" d="M40.446,0s-8.168,14.05-8.168,26.683,3.228,25.51-9.4,25.51A22.873,22.873,0,0,1,0,29.32C0,16.687,40.446,0,40.446,0Z" transform="translate(0)" fill="#fc3030"/>
+        <path id="Path_31-2" data-name="Path 31" d="M3.92,0c1.4,0,.782,3.14.782,6.055s.622,4.5-.782,4.5S0,8.631,0,5.716,2.516,0,3.92,0Z" transform="translate(24.321 36.435) rotate(39)" fill="#fff"/>
+      </g>
+      <g id="Group_37" data-name="Group 37" transform="translate(640.009 449.658) rotate(161)">
+        <path id="Path_30-3" data-name="Path 30" d="M40.446,0s-8.168,14.05-8.168,26.683,3.228,25.51-9.4,25.51A22.873,22.873,0,0,1,0,29.32C0,16.687,40.446,0,40.446,0Z" fill="#fc3030"/>
+        <path id="Path_31-3" data-name="Path 31" d="M3.92,0c1.4,0,.782,3.14.782,6.055s.622,4.5-.782,4.5S0,8.631,0,5.716,2.516,0,3.92,0Z" transform="translate(24.321 36.435) rotate(39)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="water_left" data-name="water left">
+      <g id="Group_38" data-name="Group 38" transform="translate(667.564 487.106) rotate(150)">
+        <path id="Path_30-4" data-name="Path 30" d="M40.446-16.489s-8.168,14.05-8.168,26.683,3.228,25.51-9.4,25.51A22.873,22.873,0,0,1,0,12.831C0,.2,40.446-16.489,40.446-16.489Z" transform="translate(0 16.489)" fill="#fc3030"/>
+        <path id="Path_31-4" data-name="Path 31" d="M3.92,0c1.4,0,.782,3.14.782,6.055s.622,4.5-.782,4.5S0,8.631,0,5.716,2.516,0,3.92,0Z" transform="translate(24.321 36.435) rotate(39)" fill="#fff"/>
+      </g>
+      <g id="Group_39" data-name="Group 39" transform="translate(648.857 546.502) rotate(-107)">
+        <path id="Path_30-5" data-name="Path 30" d="M40.446,0s-8.168,14.05-8.168,26.683,3.228,25.51-9.4,25.51A22.873,22.873,0,0,1,0,29.32C0,16.687,40.446,0,40.446,0Z" transform="translate(0)" fill="#fc3030"/>
+        <path id="Path_31-5" data-name="Path 31" d="M3.92,0c1.4,0,.782,3.14.782,6.055s.622,4.5-.782,4.5S0,8.631,0,5.716,2.516,0,3.92,0Z" transform="translate(24.321 36.435) rotate(39)" fill="#fff"/>
+      </g>
+      <g id="Group_40" data-name="Group 40" transform="matrix(0.656, -0.755, 0.755, 0.656, 607.749, 543.305)">
+        <path id="Path_30-6" data-name="Path 30" d="M40.446,0s-8.168,14.05-8.168,26.683,3.228,25.51-9.4,25.51A22.873,22.873,0,0,1,0,29.32C0,16.687,40.446,0,40.446,0Z" fill="#fc3030"/>
+        <path id="Path_31-6" data-name="Path 31" d="M3.92,0c1.4,0,.782,3.14.782,6.055s.622,4.5-.782,4.5S0,8.631,0,5.716,2.516,0,3.92,0Z" transform="translate(24.321 36.435) rotate(39)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

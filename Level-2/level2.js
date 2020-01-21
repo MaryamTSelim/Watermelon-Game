@@ -23,13 +23,13 @@ var waterRX, waterRY,
 var charWidth = 100,
     charHieght = 150,
     charX = canvas.width / 2 - (charWidth / 2),
-    charY = canvas.height - charHieght;
+    charY = canvas.height - charHeight;
 
 //knife variables
 var wKnife = 65,
     hKnife = 80,
     xKnife = charX + (charWidth * 0.85),
-    yKnife = initialY = charY + charHieght * 0.55;
+    yKnife = initialY = charY + charHeight * 0.55;
 
 
 //variables
@@ -111,8 +111,8 @@ function draw_knife(xKnife, yKnife, wKnife, hKnife) {
 var character = new Image();
 character.src = "assets/character.svg"
 
-function draw_character(charX, charY, charWidth, charHieght) {
-    ctx.drawImage(character, charX, charY, charWidth, charHieght)
+function draw_character(charX, charY, charWidth, charHeight) {
+    ctx.drawImage(character, charX, charY, charWidth, charHeight)
 }
 
 //draw water function
@@ -137,7 +137,7 @@ function draw_level2()
     draw_score_box();
     if (watermelon !== null) draw_watermelon(wX, wY, wWidth, wHeight);
     draw_knife(xKnife, yKnife, wKnife, hKnife);
-    draw_character(charX, charY, charWidth, charHieght);
+    draw_character(charX, charY, charWidth, charHeight);
 }
 
 //draw level2

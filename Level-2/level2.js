@@ -21,7 +21,7 @@ var waterRX, waterRY,
 
 //character variables
 var charWidth = 100,
-    charHieght = 150,
+    charHeight = 150,
     charX = canvas.width / 2 - (charWidth / 2),
     charY = canvas.height - charHeight;
 

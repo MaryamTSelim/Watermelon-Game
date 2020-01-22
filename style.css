@@ -4,8 +4,7 @@
     color: #214D09;
     font-weight: 700;
     font-size: large;
-    cursor: url('assets/cursor.png'), pointer;
-    /*cursor: url("../assets/knife.png"), auto; */
+    cursor: url('assets/cursor.png'), auto;
     overflow: hidden;
 }
 
@@ -15,7 +14,7 @@ html,body{
     
 }
 
-.header{
+/* .header{
     display: flex;
     width: 25%;
     justify-content: space-between;
@@ -23,17 +22,21 @@ html,body{
 
 .heart{
     width: 25%;
-}
+} */
 
-.score{
+/* .score{
     border: 2px solid #214D09;
     box-shadow: #214D0970;
     border-radius: 40px;
     width: 35%;
-}
+} */
+
 canvas{
-    border:1px solid #000000;
+    position: absolute;
+    border:2px solid #214D09;
     color: transparent;
+    z-index: 100;
+
 }
 .container{
     display: flex;
@@ -78,6 +81,7 @@ canvas{
 
 .dots{
     background: url("assets/dots.svg") repeat-x;
+    opacity: 0.5;
     height: 5076px;
     width: 100vw;
     animation: slide 60s linear infinite;

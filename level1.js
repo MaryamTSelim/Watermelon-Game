@@ -1,5 +1,4 @@
 //import modules
-import { draw_background } from "./scripts/Background.js";
 import { draw_font } from "./scripts/Font.js";
 import { draw_heart } from "./scripts/Hearts.js";
 import { draw_scoreBox } from "./scripts/ScoreBox.js";
@@ -17,8 +16,11 @@ import { draw_slice } from "./scripts/Slices.js";
 //select canavs, set canavs width + height
 var canvas = $('#myCanvas')[0];
 var ctx = canvas.getContext('2d');
-canvas.width = window.innerWidth - 5;
-canvas.height = window.innerHeight - 7;
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+var canvasW = window.innerWidth;
+var canavsH = window.innerHeight;
+
 
 //hide cursor
 canvas.style.cursor = "none";
@@ -34,7 +36,7 @@ var waterRX, waterRY,
     waterAppear = false;
 
 //character variables
-var charWidth = 100, charHeight = 150, 
+var charWidth = 70, charHeight = 120, 
     charX = canvas.width / 2 - (charWidth / 2), 
     charY = canvas.height - charHeight;
 
@@ -58,14 +60,14 @@ function draw_character(charX, charY, charWidth, charHeight) {
 function createWatermelones() {
     let index2 = 0,
         index3 = 0;
-    for (let index = 0; index < 21; index++) {
-        if (index < 7) {
-            watermelons.push(new Watermelon((index * 150) + 100, 80, 80, 80));
-        } else if (index < 14) {
-            watermelons.push(new Watermelon((index2 * 150) + 100, 200, 80, 80));
+    for (let index = 0; index < 24; index++) {
+        if (index < 8) {
+            watermelons.push(new Watermelon((index * 120) + 100, 80, 110, 110));
+        } else if (index < 16) {
+            watermelons.push(new Watermelon((index2 * 120) + 100, 200, 110, 110));
             index2++;
         } else {
-            watermelons.push(new Watermelon((index3 * 150) + 100, 320, 80, 80));
+            watermelons.push(new Watermelon((index3 * 120) + 100, 310, 110, 110));
             index3++;
         }
     }
@@ -78,7 +80,7 @@ createWatermelones();
 function drawGame() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     draw_font(ctx, "Level ", level_no, 10, 40);
-    draw_font(ctx, "Score: ", scoreCounter, 280, 40);
+    draw_font(ctx, "", scoreCounter, 320, 40);
     draw_heart(ctx, heartCounter);
     draw_scoreBox(ctx);
 

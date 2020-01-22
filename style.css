@@ -1,35 +1,140 @@
-* {
+*{
+    
     font-family: "Comic Sans MS", cursive, sans-serif;
     color: #214D09;
     font-weight: 700;
     font-size: large;
-    padding: 0;
-    margin: 0;
+    cursor: url('assets/cursor.png'), pointer;
+    /*cursor: url("../assets/knife.png"), auto; */
 }
 
-html,
-body {
-    height: 100%
+html,body{
+    margin: 0 !important;
+    padding: 0 !important;
+    
 }
 
-.header {
+.header{
     display: flex;
     width: 25%;
     justify-content: space-between;
 }
 
-.heart {
+.heart{
     width: 25%;
 }
 
-.score {
+.score{
     border: 2px solid #214D09;
     box-shadow: #214D0970;
     border-radius: 40px;
     width: 35%;
 }
+canvas{
+    border:1px solid #000000;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 100;
 
+}
+.logo{
+    width: 300px;
+    margin: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.btn{
+    background-color: #fc3030;
+    margin: 1%;
+    color: white;
+    border-radius: 30px;
+    width: 250px;
+    border: none;
+    justify-content: center;
+    text-align: center;
+    padding:5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn:hover{
+    background-color: #fc303090;
+    border: 2px solid #fc3030; 
+}
+
+
+.background{
+    overflow: hidden;
+    position: absolute;
+    height: 100vh;
+    width: 100vw; 
+}
+
+.dots{
+    background: url("assets/dots.svg") repeat-x;
+    height: 5076px;
+    width: 100vw;
+    animation: slide 60s linear infinite;
+}
+
+.leaves{
+    position: absolute;
+    display: flex;
+    width: 120vw;
+    height: 120vh; 
+    z-index: 100;
+    margin: 0;
+    padding: 0;
+    top:0;
+}
+
+#leaves_background{
+    margin: 0;
+    padding: 0;
+    top:0;
+    animation: move1 3s ease-in-out infinite alternate;
+}
+#leaves_part1{
+    animation: move1 2s ease-in-out infinite alternate;
+}
+#leaves_part2{
+    animation: move2 2s ease-in-out infinite alternate;
+}
+
+
+
+@keyframes slide {
+    0%{
+      transform: translate3d(0, 0, 0);
+    }
+    100%{
+      transform: translate3d(0, -1692px, 0);
+    }
+  }
+
+@keyframes move1{
+    from{
+        transform: rotateX(0deg) translateX(0%);
+    }
+    to{
+        transform: rotateX(15deg) translateX(1%);
+    }
+}
+
+@keyframes move2{
+    from{
+        transform: rotateZ(0deg) rotateY(0deg);
+    }
+    to{
+        transform: rotateZ(1deg) rotateY(2deg);
+    }
+}
+/* 
 canvas {
     width: 100%;
     height: 100%;
-}
+} */

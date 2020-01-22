@@ -175,8 +175,8 @@ canvas{
     margin: auto;
 }
 
-.win_score{
-    padding: 2%;
+.win_score, #win_score{
+    padding: 1%;
     font-size: xx-large;
     color: #FC3030;
 }

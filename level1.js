@@ -6,7 +6,7 @@ import { draw_scoreBox } from "./scripts/ScoreBox.js";
 import { Watermelon } from "./scripts/Watermelon.js";
 import { draw_watermelon_half } from "./scripts/Watermelons.js";
 import { draw_knife } from "./scripts/Knife.js";
-import { draw_character, change_charSource } from "./scripts/Character.js";
+// import { draw_character, change_charSource } from "./scripts/Character.js";
 import { draw_water } from "./scripts/Water.js";
 import { seedConstructor } from "./scripts/Seed.js";
 import { draw_seed } from "./scripts/Seeds.js";
@@ -20,11 +20,13 @@ var ctx = canvas.getContext('2d');
 canvas.width = window.innerWidth - 5;
 canvas.height = window.innerHeight - 7;
 
+//hide cursor
+canvas.style.cursor = "none";
+
 //declare variables
 var level_no = 1, heartCounter = 3, 
     watermelons = [], scoreCounter = 0, 
-    seeds = [], slices = [];
-
+    seeds = [], slices = [],winCounter = 0;
 //water variables
 var waterRX, waterRY, 
     waterLX, waterLY, 
@@ -41,6 +43,15 @@ var wKnife = 65, hKnife = 80, initialY,
     xKnife = charX + (charWidth * 0.85),
     yKnife = initialY = charY + charHeight * 0.55, 
     knifeHitFlag = true;
+
+
+let character = new Image(); 
+
+character.src = "assets/girlDefault.svg";
+
+function draw_character(charX, charY, charWidth, charHeight) {
+    ctx.drawImage(character, charX, charY, charWidth, charHeight)
+}
 
 
 //create watermelon objects function
@@ -78,8 +89,8 @@ function drawGame() {
     draw_knife(ctx, xKnife, yKnife, wKnife, hKnife);
 
     //draw character
-    change_charSource("../assets/girlDefault.svg");
-    draw_character(ctx, charX, charY, charWidth, charHeight);
+    // change_charSource("../assets/girlDefault.svg");
+    draw_character(charX, charY, charWidth, charHeight);
 
     //draw seed
     draw_seed(ctx, seeds);
@@ -138,8 +149,13 @@ document.onkeyup = function(e) {
                         yKnife = initialY
                         watermelons[watermelons.indexOf(el)] = null;
                         scoreCounter += 5;
+                        winCounter++;
                     }
                 });
+                if(winCounter == 21)
+                {
+                    window.location = "level2.html";
+                }
             }, 5);
         }
 }
@@ -168,13 +184,16 @@ let seedAnimationInterval = window.setInterval(() => {
     seeds.forEach((s, i) => {
         if (s.y > charY && s.y <= (charY + charHeight) && s.x > charX && s.x <= (charX + charWidth)) {
             heartCounter--;
+            $('#eatSeed')[0].volume = 1;
             $('#eatSeed')[0].play();
             if (heartCounter == 0) {
                 console.log("Game Over");
+                $('.gameover_container')[0].style.display = "flex";
             }
             seeds.splice(i, 1);
-            change_charSource("assets/girlSeed.svg");
-            draw_character(ctx, charX, charY, charWidth, charHeight);
+            // change_charSource("assets/girlSeed.svg");
+            character.src = "assets/girlSeed.svg";
+            draw_character(charX, charY, charWidth, charHeight);
         }
 
         if (s.y == 700) {
@@ -191,10 +210,12 @@ let sliceAnimationInterval = window.setInterval(() => {
     slices.forEach((s, i) => {
         if (s.y > charY && s.y <= (charY + charHeight) && s.x > charX && s.x <= (charX + charWidth)) {
             scoreCounter += 10;
+            $('#eatSlice')[0].volume = 1;
             $('#eatSlice')[0].play();
             slices.splice(i, 1);
-            change_charSource("assets/girlEat.svg");
-            draw_character(ctx, charX, charY, charWidth, charHeight);
+            // change_charSource("assets/girlEat.svg");
+            character.src = "assets/girlEat.svg";
+            draw_character(charX, charY, charWidth, charHeight);
         }
         if (s.y == 700) {
             slices.splice(i, 1);
@@ -207,12 +228,21 @@ let sliceAnimationInterval = window.setInterval(() => {
 
 
 let characterChange = window.setInterval(() => {
-    change_charSource("assets/girlDefault.svg");
+    document.getElementById("bgMusic").play();
+    // change_charSource("assets/girlDefault.svg");
+    character.src = "assets/girlDefault.svg";
 }, 2000);
 
 
 let newGame = window.setTimeout(() => {
-    // $("#bgMusic").play();
+    // document.getElementById('bgMusic').play();
     drawGame();
     window.clearTimeout(newGame)
 }, 0);
+
+
+$('#home-1').click(
+    function () {
+        window.location = "index.html";
+    }
+);

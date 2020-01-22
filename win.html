@@ -10,12 +10,11 @@
 </head>
 <body>
 
-    <div class = "background">
+    <div class="background">
 
         <div class = "dots"></div>
     
         <div class = leaves>
-    
             <svg xmlns="http://www.w3.org/2000/svg" width="2441.436" height="1163" viewBox="0 0 2441.436 1163.499">
                 <g id="leaves_background" transform="translate(252.543 -107.904)">
                   <g id="leaves_part2">
@@ -96,14 +95,20 @@
                   </g>
                 </g>
               </svg>
-        
         </div>
+
     </div>
 
-    <div class = "win_container">
-        <div class = "win_header"> YOU WIN 
-            <!-- <div class="win_score"></div> -->
-            <button class = "btn" id="home">Return Home</button>
+    <audio id="winGame" autoplay loop>
+      <source src="assets/sounds/Win.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="win_container">
+        <div class="win_header"> YOU WIN 
+            <div class="win_score">
+              <p id="win_score"></p>
+            </div>
+            <button class="btn" id="home">Return Home</button>
         </div> 
     </div>
 

@@ -11,17 +11,17 @@ import { draw_slice } from "./scripts/Slices.js";
 //select canavs, set canavs width + height
 var canvas = $('#myCanvas')[0];
 var ctx = canvas.getContext('2d');
-canvas.width = window.innerWidth - 5;
-canvas.height = window.innerHeight - 7;
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
 
 //hide cursor
 canvas.style.cursor = "none";
 
 
 //variables
-var level_no = 2, heartCounter = 3, 
-    seeds = [], slices = [],
-    stabs = 0, counter = 0;
+var level_no = 2, heartCounter = Number(localStorage.heartCounter), 
+    seeds = [], slices = [], charSpeed = 10, knifeSpeed = 15,
+    stabs = 0, scoreCounter = Number(localStorage.scoreCounter);
 
 
 //water variables
@@ -32,13 +32,13 @@ var waterRX, waterRY, //Small
     waterAppear = false;
 
 //character variables
-var charWidth = 100,
-    charHeight = 150,
+var charWidth = 80,
+    charHeight = 120,
     charX = canvas.width / 2 - (charWidth / 2),
     charY = canvas.height - charHeight;
 
 //knife variables
-var wKnife = 65, hKnife = 80, initialY,
+var wKnife = 45, hKnife = 60, initialY,
     xKnife = charX + (charWidth * 0.85),
     yKnife = initialY = charY + charHeight * 0.55,
     knifeFlag = true;
@@ -57,7 +57,7 @@ function draw_character(charX, charY, charWidth, charHeight) {
     ctx.drawImage(character, charX, charY, charWidth, charHeight)
 }
 
-//draw watermelon
+//draw watermelon function
 var watermelon = new Image();
 watermelon.src = "assets/watermelon.svg";
 
@@ -80,10 +80,17 @@ function draw_water(src, waterX, waterY) {
 
 //draw level2 function
 function draw_game() {
+    //clear canvas
     ctx.clearRect(0, 0, canvas.width, canvas.height);
-    draw_font(ctx, "Level ", level_no, 10, 40);
-    draw_font(ctx, "Score: ", counter, 280, 40);
+
+    //draw fonts
+    draw_font(ctx, "Level ", level_no, 20, 40);
+    draw_font(ctx, "Score: ", scoreCounter, 2650, 42);
+
+    //draw hearts
     draw_heart(ctx, heartCounter);
+
+    //draw score box
     draw_scoreBox(ctx);
 
     //draw watermelon
@@ -101,6 +108,7 @@ function draw_game() {
     //draw slice
     draw_slice(ctx, slices);
 
+    //draw water
     if (waterAppear) {
         draw_water(waterR, waterRX, waterRY);
         draw_water(waterL, waterLX, waterLY);
@@ -108,23 +116,23 @@ function draw_game() {
 }
 
 
-//draw level2
-draw_game();
+// //draw level2
+// draw_game();
 
 
 //control character movement
 document.onkeydown = function(e) {
     if (e.keyCode === 39 && charX <= canvas.width - charWidth - 10) {
-        charX = charX + 10;
+        charX += charSpeed;
         if (yKnife === initialY) {
-            xKnife = xKnife + 10;
+            xKnife += charSpeed;
         }
     } 
     
     else if (e.keyCode === 37 && charX > 10) {
-        charX = charX - 10;
+        charX -= charSpeed;
         if (yKnife === initialY) {
-            xKnife = xKnife - 10;
+            xKnife -= charSpeed;
         }
     }
 
@@ -132,13 +140,13 @@ document.onkeydown = function(e) {
 }
 
 
-//throw knife + cut watermelon + show water
+//throw knife + cut watermelon + show water + slices
 document.onkeyup = function(e) {
     if (e.keyCode === 32) {
         $('#throwKnife')[0].play();
         let knifeInterval = setInterval(function() {
             if (yKnife >= 20 && knifeFlag) {
-                yKnife -= 10;
+                yKnife -= knifeSpeed;
             } 
             else {
                 yKnife = initialY;
@@ -157,7 +165,7 @@ document.onkeyup = function(e) {
                 $('#stabWatermelon')[0].play();
 
                 slices.push(new sliceConstructor(wX + x, wY + 150));
-                counter += 5;
+                scoreCounter += 5;
                 stabs++;
 
                 if (stabs === 20) {
@@ -216,8 +224,12 @@ let seedAnimationInterval = window.setInterval(() => {
             $('#eatSeed')[0].volume = 1;
             $('#eatSeed')[0].play();
             heartCounter--;
-            if (heartCounter == 0) {
-                window.location = "gameover.html";
+            if (heartCounter < 0) {
+                $('#bgMusic').stop();
+                
+                setTimeout(() => {
+                    window.location = "gameover.html";
+                }, 1000);
             }
 
             seeds.splice(i, 1);
@@ -237,7 +249,7 @@ let sliceAnimationInterval = window.setInterval(() => {
     slices.forEach((s, i) => {
         if (s.y > charY && s.y <= (charY + charHeight) && s.x > charX && s.x <= (charX + charWidth)) {
             $('#eatSlice')[0].play();
-            counter += 10;
+            scoreCounter += 10;
             slices.splice(i, 1);
             character.src = "assets/girlEat.svg";
         }
@@ -257,7 +269,6 @@ let characterChange = window.setInterval(() => {
 
 
 let newGame = window.setTimeout(() => {
-    // document.getElementById('bgMusic').play();
     draw_game();
     window.clearTimeout(newGame)
 }, 0);

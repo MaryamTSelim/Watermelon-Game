@@ -1,14 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Level1</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-    <canvas id="myCanvas" ></canvas>
-<script src = "level1.js"></script>
+    <canvas id="myCanvas"></canvas>
+
+    <audio id="throwKnife">
+        <source src="assets/sounds/KnifeThrow5.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="stabWatermelon">
+        <source src="assets/sounds/StabWatermelon.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="bgMusic" autoplay loop>
+        <source src="assets/sounds/FunFact.mp3" type="audio/mp3">
+        <source src="assets/sounds/FunFact.mp3" type="audio/ogg">
+        <source src="assets/sounds/FunFact.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="jquery-3.4.1.min.js"></script>
+
+    <script src="level1.js"></script>
 </body>
+
 </html>

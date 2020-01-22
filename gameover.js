@@ -1,4 +1,9 @@
-//retun home "game over"
-$('#home').click(
-    function () { window.location = "index.html"; }
-);
+
+$(document).ready(function(){
+
+    //retun home btn
+    $('#home').click(
+        function () { window.location = "index.html"; }
+    );
+
+});

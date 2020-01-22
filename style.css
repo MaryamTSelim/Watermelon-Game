@@ -6,6 +6,7 @@
     font-size: large;
     cursor: url('assets/cursor.png'), pointer;
     /*cursor: url("../assets/knife.png"), auto; */
+    overflow: hidden;
 }
 
 html,body{

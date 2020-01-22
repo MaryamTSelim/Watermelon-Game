@@ -6,6 +6,10 @@ ctx = canvas.getContext('2d');
 canvas.width = window.innerWidth - 5;
 canvas.height = window.innerHeight - 7;
 
+//hide cursor
+canvas.style.cursor = "none";
+
+
 //variables
 var heartX = 80,
     heartY, sliceX, sliceY, seedX, seedY = 0;
@@ -258,6 +262,9 @@ document.onkeyup = function(e) {
                     waterAppear = false;
                 }, 1000)
             }
+            else if (watermelon == null) {
+                window.location = "win.html";
+            }
         }, 5);
     }
 }
@@ -281,12 +288,18 @@ let seedInterval = window.setInterval(() => {
 let seedAnimationInterval = window.setInterval(() => {
     seeds.forEach((s, i) => {
         if (s.y > charY && s.y <= (charY + charHeight) && s.x > charX && s.x <= (charX + charWidth)) {
+            $('#eatSeed')[0].volume = 1;
             $('#eatSeed')[0].play();
-
             heartCounter--;
+            if (heartCounter == 0) {
+                console.log("Game Over");
+                $('.gameover_container')[0].style.display = "flex";
+            }
+
             seeds.splice(i, 1);
             character.src = "assets/girlSeed.svg";
         }
+
         if (s.y == 700) {
             seeds.splice(i, 1);
         }
@@ -317,3 +330,10 @@ let characterChange = window.setInterval(() => {
     document.getElementById("bgMusic").play();
     character.src = "assets/girlDefault.svg";
 }, 2000);
+
+
+$('#home-2').click(
+    function () {
+        window.location = "index.html";
+    }
+);

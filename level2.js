@@ -1,8 +1,16 @@
-//level 2
+//import modules
+import { draw_font } from "./scripts/Font.js";
+import { draw_heart } from "./scripts/Hearts.js";
+import { draw_scoreBox } from "./scripts/ScoreBox.js";
+import { draw_knife } from "./scripts/Knife.js";
+import { seedConstructor } from "./scripts/Seed.js";
+import { draw_seed } from "./scripts/Seeds.js";
+import { sliceConstructor } from "./scripts/Slice.js";
+import { draw_slice } from "./scripts/Slices.js";
 
 //select canavs, set canavs width + height
 var canvas = $('#myCanvas')[0];
-ctx = canvas.getContext('2d');
+var ctx = canvas.getContext('2d');
 canvas.width = window.innerWidth - 5;
 canvas.height = window.innerHeight - 7;
 
@@ -11,10 +19,10 @@ canvas.style.cursor = "none";
 
 
 //variables
-var heartX = 80,
-    heartY, sliceX, sliceY, seedX, seedY = 0;
-var no_level = 1;
-var stabs = 0;
+var level_no = 2, heartCounter = 3, 
+    seeds = [], slices = [],
+    stabs = 0, counter = 0;
+
 
 //water variables
 var waterRX, waterRY, //Small 
@@ -22,6 +30,7 @@ var waterRX, waterRY, //Small
     waterW = 50, //Small
     waterH = 70,
     waterAppear = false;
+
 //character variables
 var charWidth = 100,
     charHeight = 150,
@@ -29,124 +38,16 @@ var charWidth = 100,
     charY = canvas.height - charHeight;
 
 //knife variables
-var wKnife = 65,
-    hKnife = 80,
+var wKnife = 65, hKnife = 80, initialY,
     xKnife = charX + (charWidth * 0.85),
-    yKnife = initialY = charY + charHeight * 0.55;
+    yKnife = initialY = charY + charHeight * 0.55,
+    knifeFlag = true;
 
 //variables
-var wWidth = 350;
-var wHeight = 350;
+var wWidth = 350, wHeight = 350,
+    wX = canvas.width / 2 - wWidth / 2,
+    wY = canvas.height / 2 - wHeight * 0.75;
 
-var wX = canvas.width / 2 - wWidth / 2;
-var wY = canvas.height / 2 - wHeight * 0.75;
-
-
-//draw font function
-function draw_font() {
-    ctx.font = "23px Comic Sans MS";
-    ctx.fillStyle = "#214D09";
-    ctx.fillText("LEVEL " + no_level, 10, 40);
-}
-
-function drawFont1() {
-    ctx.font = "23px Comic Sans MS";
-    ctx.fillStyle = "#214D09";
-    ctx.fillText("Score: " + counter, 285, 40);
-}
-
-//draw slice function
-var slice = new Image();
-slice.src = "assets/slice.svg";
-
-function draw_slice(sliceX, sliceY) {
-    ctx.drawImage(slice, sliceX, sliceY);
-}
-
-//draw seed function
-let seeds = [];
-var seed = new Image();
-seed.src = "assets/seed.svg";
-
-function seedConstructor(x, y) {
-    this.x = x;
-    this.y = y;
-}
-
-function draw_seed() {
-    seeds.forEach(s => {
-        ctx.drawImage(seed, s.x, s.y, 10, 15);
-    })
-
-}
-
-
-//draw background function
-// background_img = new Image();
-// background_img.src = "assets/background.svg";
-
-// function draw_background() {
-//     ctx.drawImage(background_img, 0, 0);
-// }
-
-
-//draw score box function
-var score_box = new Image();
-score_box.src = "assets/scoreBox.svg";
-
-function draw_score_box() {
-    ctx.drawImage(score_box, 250, 10, 170, 45);
-}
-
-//draw heart function
-var heart = new Image();
-heart.src = "assets/heart.png";
-
-var heartCounter = 3;
-
-function draw_heart(no_hearts) {
-    heartX = 80;
-    for (let index = 0; index < no_hearts; index++) {
-        heartX += 40;
-        ctx.drawImage(heart, heartX, 20, 25, 25);
-
-    }
-}
-
-// draw watermelon function
-var watermelon = new Image();
-watermelon.src = "assets/watermelon.svg";
-
-function draw_watermelon(wX, wY, wWidth, wHeight) {
-    ctx.drawImage(watermelon, wX, wY, wWidth, wHeight);
-}
-
-let slices = []
-
-slice = new Image();
-slice.src = "assets/slice.svg";
-
-function sliceConstructor(x, y) {
-    this.x = x;
-    this.y = y;
-}
-
-function draw_slice() {
-    slices.forEach(s => {
-        ctx.drawImage(slice, s.x, s.y, 30, 30)
-    })
-
-}
-
-
-
-//draw knife function
-var knife = new Image();
-knife.src = "assets/knife.svg";
-
-function draw_knife(xKnife, yKnife, wKnife, hKnife) {
-    ctx.drawImage(knife, xKnife, yKnife, wKnife, hKnife);
-}
 
 //draw character function
 var character = new Image();
@@ -154,6 +55,14 @@ character.src = "assets/girlDefault.svg"
 
 function draw_character(charX, charY, charWidth, charHeight) {
     ctx.drawImage(character, charX, charY, charWidth, charHeight)
+}
+
+//draw watermelon
+var watermelon = new Image();
+watermelon.src = "assets/watermelon.svg";
+
+function draw_watermelon(ctx, wX, wY, wWidth, wHeight) {
+    ctx.drawImage(watermelon, wX, wY, wWidth, wHeight);
 }
 
 //draw water function
@@ -168,64 +77,77 @@ function draw_water(src, waterX, waterY) {
     ctx.drawImage(src, waterX, waterY, waterW, waterH);
 }
 
-//draw level2 function
-function draw_level2() {
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-    draw_font();
-    drawFont1()
-    draw_heart(heartCounter);
-    draw_score_box();
-    if (watermelon !== null) draw_watermelon(wX, wY, wWidth, wHeight);
 
-    draw_knife(xKnife, yKnife, wKnife, hKnife);
+//draw level2 function
+function draw_game() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    draw_font(ctx, "Level ", level_no, 10, 40);
+    draw_font(ctx, "Score: ", counter, 280, 40);
+    draw_heart(ctx, heartCounter);
+    draw_scoreBox(ctx);
+
+    //draw watermelon
+    if (watermelon !== null) draw_watermelon(ctx, wX, wY, wWidth, wHeight);
+
+    //draw knife
+    draw_knife(ctx, xKnife, yKnife, wKnife, hKnife);
+
+    //draw character
     draw_character(charX, charY, charWidth, charHeight);
 
     //draw seed
-    draw_seed();
+    draw_seed(ctx, seeds);
 
     //draw slice
-    draw_slice();
+    draw_slice(ctx, slices);
+
     if (waterAppear) {
         draw_water(waterR, waterRX, waterRY);
         draw_water(waterL, waterLX, waterLY);
     }
 }
 
+
 //draw level2
-draw_level2();
+draw_game();
+
 
 //control character movement
 document.onkeydown = function(e) {
     if (e.keyCode === 39 && charX <= canvas.width - charWidth - 10) {
         charX = charX + 7;
-        xKnife = xKnife + 7;
-
-    } else if (e.keyCode === 37 && charX > 10) {
+        if (yKnife === initialY) {
+            xKnife = xKnife + 7;
+        }
+    } 
+    
+    else if (e.keyCode === 37 && charX > 10) {
         charX = charX - 7;
-        xKnife = xKnife - 7;
+        if (yKnife === initialY) {
+            xKnife = xKnife - 7;
+        }
     }
 
-    draw_level2();
+    draw_game();
 }
 
-var counter = 0;
-//throw knife + cut watermelon + show water
-var knifeFlag = true;
 
+//throw knife + cut watermelon + show water
 document.onkeyup = function(e) {
     if (e.keyCode === 32) {
-
         $('#throwKnife')[0].play();
         let knifeInterval = setInterval(function() {
             if (yKnife >= 20 && knifeFlag) {
                 yKnife -= 15;
-            } else {
+            } 
+            else {
                 yKnife = initialY;
                 knifeFlag = true;
-                draw_level2();
+                draw_game();
                 window.clearInterval(knifeInterval)
             }
-            draw_level2();
+
+            draw_game();
             var r = Math.random();
             var x = Math.floor(r * wWidth);
 
@@ -250,24 +172,26 @@ document.onkeyup = function(e) {
                         slices.push(new sliceConstructor(wX + x, wY + y))
                     }
 
-                } else {
+                } 
+                else {
                     draw_watermelon(wX, wY, wWidth, wHeight);
                     waterLX = xKnife, waterLY = yKnife;
                     waterRX = xKnife + 20, waterRY = yKnife;
                 }
                 waterAppear = true;
                 yKnife = initialY;
-                draw_level2();
+                draw_game();
                 let waterAppearToggler = window.setTimeout(() => {
                     waterAppear = false;
                 }, 1000)
             }
-            else if (watermelon == null) {
+            else if (watermelon === null) {
                 window.location = "win.html";
             }
         }, 5);
     }
 }
+
 
 let seedInterval = window.setInterval(() => {
     let check = true //Checks if there is any watermelon left
@@ -285,6 +209,7 @@ let seedInterval = window.setInterval(() => {
 
 }, 2000)
 
+
 let seedAnimationInterval = window.setInterval(() => {
     seeds.forEach((s, i) => {
         if (s.y > charY && s.y <= (charY + charHeight) && s.x > charX && s.x <= (charX + charWidth)) {
@@ -292,7 +217,6 @@ let seedAnimationInterval = window.setInterval(() => {
             $('#eatSeed')[0].play();
             heartCounter--;
             if (heartCounter == 0) {
-                console.log("Game Over");
                 $('.gameover_container')[0].style.display = "flex";
             }
 
@@ -305,8 +229,9 @@ let seedAnimationInterval = window.setInterval(() => {
         }
         s.y += 5
     });
-    draw_level2();
+    draw_game();
 }, 50);
+
 
 let sliceAnimationInterval = window.setInterval(() => {
     slices.forEach((s, i) => {
@@ -321,9 +246,8 @@ let sliceAnimationInterval = window.setInterval(() => {
         }
         s.y += 5
     });
-    draw_level2();
+    draw_game();
 }, 50);
-
 
 
 let characterChange = window.setInterval(() => {
@@ -332,8 +256,14 @@ let characterChange = window.setInterval(() => {
 }, 2000);
 
 
+let newGame = window.setTimeout(() => {
+    // document.getElementById('bgMusic').play();
+    draw_game();
+    window.clearTimeout(newGame)
+}, 0);
+
+
+//retun home "game over"
 $('#home-2').click(
-    function () {
-        window.location = "index.html";
-    }
+    function () { window.location = "index.html"; }
 );

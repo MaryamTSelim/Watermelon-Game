@@ -109,7 +109,7 @@ canvas{
 
 
 .gameover_container{
-    display: flex;
+    display: none;
     flex-direction: column;
     top:0;
     width: 100vw;
@@ -130,7 +130,7 @@ canvas{
 
 
 .credits_container{
-    display: flex;
+    display: none;
     flex-direction: column;
     top:0;
     width: 100vw;

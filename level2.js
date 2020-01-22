@@ -61,7 +61,7 @@ function draw_character(charX, charY, charWidth, charHeight) {
 var watermelon = new Image();
 watermelon.src = "assets/watermelon.svg";
 
-function draw_watermelon(ctx, wX, wY, wWidth, wHeight) {
+function draw_watermelon(wX, wY, wWidth, wHeight) {
     ctx.drawImage(watermelon, wX, wY, wWidth, wHeight);
 }
 
@@ -87,7 +87,7 @@ function draw_game() {
     draw_scoreBox(ctx);
 
     //draw watermelon
-    if (watermelon !== null) draw_watermelon(ctx, wX, wY, wWidth, wHeight);
+    if (watermelon !== null) draw_watermelon(wX, wY, wWidth, wHeight);
 
     //draw knife
     draw_knife(ctx, xKnife, yKnife, wKnife, hKnife);
@@ -115,16 +115,16 @@ draw_game();
 //control character movement
 document.onkeydown = function(e) {
     if (e.keyCode === 39 && charX <= canvas.width - charWidth - 10) {
-        charX = charX + 7;
+        charX = charX + 10;
         if (yKnife === initialY) {
-            xKnife = xKnife + 7;
+            xKnife = xKnife + 10;
         }
     } 
     
     else if (e.keyCode === 37 && charX > 10) {
-        charX = charX - 7;
+        charX = charX - 10;
         if (yKnife === initialY) {
-            xKnife = xKnife - 7;
+            xKnife = xKnife - 10;
         }
     }
 
@@ -138,10 +138,11 @@ document.onkeyup = function(e) {
         $('#throwKnife')[0].play();
         let knifeInterval = setInterval(function() {
             if (yKnife >= 20 && knifeFlag) {
-                yKnife -= 15;
+                yKnife -= 10;
             } 
             else {
                 yKnife = initialY;
+                xKnife = charX + (charWidth * 0.85),
                 knifeFlag = true;
                 draw_game();
                 window.clearInterval(knifeInterval)
@@ -171,7 +172,9 @@ document.onkeyup = function(e) {
                         let y = Math.floor(Math.random() * wY)
                         slices.push(new sliceConstructor(wX + x, wY + y))
                     }
-
+                    setTimeout(() => {
+                        window.location = "win.html";
+                    }, 8000);
                 } 
                 else {
                     draw_watermelon(wX, wY, wWidth, wHeight);
@@ -184,9 +187,6 @@ document.onkeyup = function(e) {
                 let waterAppearToggler = window.setTimeout(() => {
                     waterAppear = false;
                 }, 1000)
-            }
-            else if (watermelon === null) {
-                window.location = "win.html";
             }
         }, 5);
     }
@@ -217,7 +217,7 @@ let seedAnimationInterval = window.setInterval(() => {
             $('#eatSeed')[0].play();
             heartCounter--;
             if (heartCounter == 0) {
-                $('.gameover_container')[0].style.display = "flex";
+                window.location = "gameover.html";
             }
 
             seeds.splice(i, 1);
@@ -262,8 +262,3 @@ let newGame = window.setTimeout(() => {
     window.clearTimeout(newGame)
 }, 0);
 
-
-//retun home "game over"
-$('#home-2').click(
-    function () { window.location = "index.html"; }
-);

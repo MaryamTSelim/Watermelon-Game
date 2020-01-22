@@ -214,7 +214,7 @@ document.onkeyup = function(e) {
         $('#throwKnife')[0].play();
         let knifeInterval = setInterval(function() {
             if (yKnife >= 20 && knifeFlag) {
-                yKnife -= 5;
+                yKnife -= 15;
             } else {
                 yKnife = initialY;
                 knifeFlag = true;
@@ -240,6 +240,11 @@ document.onkeyup = function(e) {
                     waterW = wWidth / 2;
                     waterH = wHeight / 2;
                     waterR = waterL = water;
+                    for (let i = 0; i < 15; i++) {
+                        let x = Math.floor(Math.random() * wX)
+                        let y = Math.floor(Math.random() * wY)
+                        slices.push(new sliceConstructor(wX + x, wY + y))
+                    }
 
                 } else {
                     draw_watermelon(wX, wY, wWidth, wHeight);
@@ -253,7 +258,7 @@ document.onkeyup = function(e) {
                     waterAppear = false;
                 }, 1000)
             }
-        }, 10);
+        }, 5);
     }
 }
 
@@ -301,7 +306,6 @@ let sliceAnimationInterval = window.setInterval(() => {
         if (s.y == 700) {
             slices.splice(i, 1);
         }
-
         s.y += 5
     });
     draw_level2();
@@ -310,5 +314,6 @@ let sliceAnimationInterval = window.setInterval(() => {
 
 
 let characterChange = window.setInterval(() => {
+    document.getElementById("bgMusic").play();
     character.src = "assets/girlDefault.svg";
 }, 2000);

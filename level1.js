@@ -18,19 +18,20 @@ var waterRX, waterRY,
     waterH = 90,
     waterAppear = false;
 
-
 //character variables
-var charWidth = 90,
-    charHieght = 100,
-    charX = canvas.width / 2 - (charWidth / 2),
-    charY = canvas.height - charHieght - 10;
+var charWidth = 100,
+charHeight = 150,
+charX = canvas.width / 2 - (charWidth / 2),
+charY = canvas.height - charHeight;
+
 
 //knife variables
-var wKnife = 40,
-    hKnife = 55,
-    xKnife = charX + charWidth * 0.9 - wKnife / 2,
-    yKnife = initialY = charY,
-    knifeHitFlag = true;;
+var wKnife = 65,
+    hKnife = 80,
+    xKnife = charX + (charWidth * 0.85),
+    yKnife = initialY = charY + charHeight * 0.55,
+    knifeHitFlag = true;
+
 
 var watermelons = [];
 //watermelon function constructor
@@ -76,8 +77,8 @@ function drawFont1() {
 character = new Image();
 character.src = "assets/girlDefault.svg";
 
-function drawCharacter(charX, charY, charWidth, charHieght) {
-    ctx.drawImage(character, charX, charY, charWidth, charHieght)
+function drawCharacter(charX, charY, charWidth, charHeight) {
+    ctx.drawImage(character, charX, charY, charWidth, charHeight)
 
 }
 
@@ -194,7 +195,7 @@ function drawGame() {
     //draw knife
     draw_knife(xKnife, yKnife, wKnife, hKnife);
     //draw character
-    drawCharacter(charX, charY, charWidth, charHieght);
+    drawCharacter(charX, charY, charWidth, charHeight);
 
     //draw watermelons
     draw_watermelon_half()
@@ -276,7 +277,7 @@ let seedInterval = window.setInterval(() => {
 
 let seedAnimationInterval = window.setInterval(() => {
     seeds.forEach((s, i) => {
-        if (s.y > charY && s.y <= (charY + charHieght) && s.x > charX && s.x <= (charX + charWidth)) {
+        if (s.y > charY && s.y <= (charY + charHeight) && s.x > charX && s.x <= (charX + charWidth)) {
             heartCounter--;
             seeds.splice(i, 1);
             character.src = "assets/girlSeed.svg";
@@ -291,7 +292,7 @@ let seedAnimationInterval = window.setInterval(() => {
 
 let sliceAnimationInterval = window.setInterval(() => {
     slices.forEach((s, i) => {
-        if (s.y > charY && s.y <= (charY + charHieght) && s.x > charX && s.x <= (charX + charWidth)) {
+        if (s.y > charY && s.y <= (charY + charHeight) && s.x > charX && s.x <= (charX + charWidth)) {
             counter += 10;
             slices.splice(i, 1);
             character.src = "assets/girlEat.svg";
@@ -313,4 +314,4 @@ let newGame = window.setTimeout(() => {
     // document.getElementById("bgMusic").play();
     drawGame();
     window.clearTimeout(newGame)
-}, 0)
+}, 0);

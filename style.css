@@ -32,12 +32,159 @@ html,body{
 }
 canvas{
     border:1px solid #000000;
+    color: transparent;
 }
 .container{
     display: flex;
     flex-direction: column;
     position: relative;
     z-index: 100;
+
+}
+.logo{
+    width: 300px;
+    margin:4%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.btn{
+    background-color: #fc3030;
+    margin: 1%;
+    color: white;
+    border-radius: 30px;
+    width: 250px;
+    border: none;
+    justify-content: center;
+    text-align: center;
+    padding:5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn:hover{
+    background-color: #fc303090;
+    border: 2px solid #fc3030; 
+}
+
+
+.background{
+    overflow: hidden;
+    position: absolute;
+    height: 100vh;
+    width: 100vw; 
+}
+
+.dots{
+    background: url("assets/dots.svg") repeat-x;
+    height: 5076px;
+    width: 100vw;
+    animation: slide 60s linear infinite;
+}
+
+.leaves{
+    position: absolute;
+    display: flex;
+    width: 120vw;
+    height: 120vh; 
+    z-index: 100;
+    margin: 0;
+    padding: 0;
+    top:0;
+}
+
+#leaves_background{
+    margin: 0;
+    padding: 0;
+    top:0;
+    animation: move1 3s ease-in-out infinite alternate;
+}
+#leaves_part1{
+    animation: move1 2s ease-in-out infinite alternate;
+}
+#leaves_part2{
+    animation: move2 2s ease-in-out infinite alternate;
+}
+
+
+
+.gameover_container{
+    display: flex;
+    flex-direction: column;
+    top:0;
+    width: 100vw;
+    height: 100vh;
+    position:absolute;
+    background-color:rgba(75, 73, 73, 0.90);
+    z-index: 200;
+}
+.gameover{
+    color: white;
+    margin-top: 15%;
+    margin-bottom: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 5rem;
+}
+
+
+
+.credits_container{
+    display: flex;
+    flex-direction: column;
+    top:0;
+    width: 100vw;
+    height: 100vh;
+    position:absolute;
+    z-index: 200;
+    text-align: center;
+}
+.credits_header{
+    font-size: xx-large;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.credits_name{
+    font-size: x-large;
+    color: #F55959;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.back{
+    position: absolute;
+    padding:2%;
+    width: 4%;
+}
+
+@keyframes slide {
+    0%{
+      transform: translate3d(0, 0, 0);
+    }
+    100%{
+      transform: translate3d(0, -1692px, 0);
+    }
+  }
+
+@keyframes move1{
+    from{
+        transform: rotateX(0deg) translateX(0%);
+    }
+    to{
+        transform: rotateX(15deg) translateX(1%);
+    }
+}
+
+@keyframes move2{
+    from{
+        transform: rotateZ(0deg) rotateY(0deg);
+    }
+    to{
+        transform: rotateZ(1deg) rotateY(2deg);
+    }
+}
+
 
 }
 .logo{

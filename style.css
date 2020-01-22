@@ -1,5 +1,4 @@
 *{
-    
     font-family: "Comic Sans MS", cursive, sans-serif;
     color: #214D09;
     font-weight: 700;
@@ -10,8 +9,7 @@
 
 html,body{
     margin: 0 !important;
-    padding: 0 !important;
-    
+    padding: 0 !important;   
 }
 
 /* .header{
@@ -19,7 +17,6 @@ html,body{
     width: 25%;
     justify-content: space-between;
 }
-
 .heart{
     width: 25%;
 } */
@@ -36,22 +33,22 @@ canvas{
     border:2px solid #214D09;
     color: transparent;
     z-index: 100;
-
 }
+
 .container{
     display: flex;
     flex-direction: column;
     position: relative;
     z-index: 100;
-
 }
+
 .logo{
     width: 300px;
     margin:4%;
     margin-left: auto;
-    margin-right: auto;
-    
+    margin-right: auto;  
 }
+
 .btn{
     background-color: #fc3030;
     margin: 1%;
@@ -70,7 +67,6 @@ canvas{
     background-color: #fc303090;
     border: 2px solid #fc3030; 
 }
-
 
 .background{
     overflow: hidden;
@@ -104,17 +100,17 @@ canvas{
     top:0;
     animation: move1 3s ease-in-out infinite alternate;
 }
+
 #leaves_part1{
     animation: move1 2s ease-in-out infinite alternate;
 }
+
 #leaves_part2{
     animation: move2 2s ease-in-out infinite alternate;
 }
 
-
-
 .gameover_container{
-    display: none;
+    display: flex;
     flex-direction: column;
     top:0;
     width: 100vw;
@@ -123,6 +119,7 @@ canvas{
     background-color:rgba(75, 73, 73, 0.90);
     z-index: 200;
 }
+
 .gameover{
     color: white;
     margin-top: 15%;
@@ -131,8 +128,6 @@ canvas{
     margin-right: auto;
     font-size: 5rem;
 }
-
-
 
 .credits_container{
     display: none;
@@ -144,6 +139,7 @@ canvas{
     z-index: 200;
     text-align: center;
 }
+
 .credits_header{
     font-size: xx-large;
     margin-left: auto;
@@ -184,9 +180,6 @@ canvas{
     font-size: xx-large;
     color: #FC3030;
 }
-
-
-
 
 
 @keyframes slide {

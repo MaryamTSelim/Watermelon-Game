@@ -5,7 +5,6 @@ import { draw_scoreBox } from "./scripts/ScoreBox.js";
 import { Watermelon } from "./scripts/Watermelon.js";
 import { draw_watermelon_half } from "./scripts/Watermelons.js";
 import { draw_knife } from "./scripts/Knife.js";
-// import { draw_character, change_charSource } from "./scripts/Character.js";
 import { draw_water } from "./scripts/Water.js";
 import { seedConstructor } from "./scripts/Seed.js";
 import { draw_seed } from "./scripts/Seeds.js";
@@ -18,37 +17,39 @@ var canvas = $('#myCanvas')[0];
 var ctx = canvas.getContext('2d');
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
-var canvasW = window.innerWidth;
-var canavsH = window.innerHeight;
 
 
 //hide cursor
 canvas.style.cursor = "none";
 
+//set localstorage values
+localStorage.heartCounter = 0, localStorage.scoreCounter = 0;
+
 //declare variables
-var level_no = 1, heartCounter = 3, 
+var level_no = 1, heartCounter = 3, noOfMelons = 21,
+    charSpeed = 10, knifeSpeed = 15,
     watermelons = [], scoreCounter = 0, 
     seeds = [], slices = [],winCounter = 0;
+
 //water variables
 var waterRX, waterRY, 
     waterLX, waterLY, 
-    waterW = 70, waterH = 90, 
-    waterAppear = false;
+    waterW = 70, waterAppear = false;
 
 //character variables
-var charWidth = 70, charHeight = 120, 
+var charWidth = 80, charHeight = 120, 
     charX = canvas.width / 2 - (charWidth / 2), 
     charY = canvas.height - charHeight;
 
 //knife variables
-var wKnife = 65, hKnife = 80, initialY,
+var wKnife = 45, hKnife = 60, initialY,
     xKnife = charX + (charWidth * 0.85),
     yKnife = initialY = charY + charHeight * 0.55, 
     knifeHitFlag = true;
 
 
+//draw character function
 let character = new Image(); 
-
 character.src = "assets/girlDefault.svg";
 
 function draw_character(charX, charY, charWidth, charHeight) {
@@ -60,28 +61,36 @@ function draw_character(charX, charY, charWidth, charHeight) {
 function createWatermelones() {
     let index2 = 0,
         index3 = 0;
-    for (let index = 0; index < 24; index++) {
-        if (index < 8) {
-            watermelons.push(new Watermelon((index * 120) + 100, 80, 110, 110));
-        } else if (index < 16) {
-            watermelons.push(new Watermelon((index2 * 120) + 100, 200, 110, 110));
+    for (let index = 0; index < noOfMelons; index++) {
+        if (index < noOfMelons/3) {
+            watermelons.push(new Watermelon((index * 180) + 50, 80, 120, 110));
+        } else if (index < (noOfMelons * 2) /3) {
+            watermelons.push(new Watermelon((index2 * 180) + 50, 200, 120, 110));
             index2++;
         } else {
-            watermelons.push(new Watermelon((index3 * 120) + 100, 310, 110, 110));
+            watermelons.push(new Watermelon((index3 * 180) + 50, 310, 120, 110));
             index3++;
         }
     }
 }
 
+//create watermelon objects
 createWatermelones();
 
 
-//draw game
-function drawGame() {
+//draw level 1
+function draw_game() {
+    //clear canvas
     ctx.clearRect(0, 0, canvas.width, canvas.height);
-    draw_font(ctx, "Level ", level_no, 10, 40);
-    draw_font(ctx, "", scoreCounter, 320, 40);
+
+    //draw fonts
+    draw_font(ctx, "Level ", level_no, 20, 40);
+    draw_font(ctx, "Score: ", scoreCounter, 250, 42);
+
+    //draw hearts
     draw_heart(ctx, heartCounter);
+
+    //draw score box
     draw_scoreBox(ctx);
 
     //draw watermelons
@@ -109,37 +118,39 @@ function drawGame() {
 //control character movement
 document.onkeydown = function(e) {
     if (e.keyCode === 39 && charX <= canvas.width - charWidth - 10) {
-        charX = charX + 7;
+        charX += charSpeed;
         if (yKnife === initialY) {
-            xKnife = xKnife + 7;
+            xKnife += charSpeed;
         }
     } else if (e.keyCode === 37 && charX > 10) {
-        charX = charX - 7;
+        charX -= charSpeed;
         if (yKnife === initialY) {
-            xKnife = xKnife - 7;
+            xKnife -= charSpeed;
         }
     }
-    drawGame();
+    draw_game();
 }
 
-//throw knife
+//throw knife + cut watermelon + draw water + slice
 document.onkeyup = function(e) {
         if (e.keyCode === 32) {
+            $('#throwKnife')[0].volume = 1;
             $('#throwKnife')[0].play();
             let knifeInterval = window.setInterval(function() {
                 if (yKnife > 20 && knifeHitFlag) {
-                    yKnife -= 10;
+                    yKnife -= knifeSpeed;
                 } else {
                     yKnife = initialY;
-                    xKnife = charX + (charWidth * 0.85),
+                    xKnife =  charX + (charWidth * 0.85),
                     knifeHitFlag = true;
-                    drawGame();
+                    draw_game();
                     window.clearInterval(knifeInterval)
                 }
-                drawGame();
+                draw_game();
                 watermelons.forEach(el => {
                     if (el !== null && el.xPoint <= xKnife && (el.xPoint + el.wSize) >= xKnife && el.yPoint <= yKnife && (el.yPoint + el.hSize / 2) >= yKnife) {
                         knifeHitFlag = false;
+                        $('#stabWatermelon')[0].volume = 1;
                         $('#stabWatermelon')[0].play();
                         waterLX = el.xPoint, waterLY = el.yPoint;
                         waterRX = el.xPoint + waterW + 20, waterRY = el.yPoint;
@@ -154,10 +165,16 @@ document.onkeyup = function(e) {
                         winCounter++;
                     }
                 });
-                if(winCounter == 21)
+
+                if(winCounter === noOfMelons)
                 {
-                    window.location = "level2.html";
+                    localStorage.heartCounter = heartCounter;
+                    localStorage.scoreCounter = scoreCounter;
+                    setTimeout(() => {
+                        window.location = "level2.html"; 
+                    }, 5000);
                 }
+
             }, 5);
         }
 }
@@ -176,9 +193,9 @@ let seedInterval = window.setInterval(() => {
     let r = Math.floor(Math.random() * watermelons.length)
     if (watermelons[r] != null) {
         let w = watermelons[r];
-        seeds.push(new seedConstructor(w.xPoint + w.wSize / 2, w.yPoint + w.hSize))
+        seeds.push(new seedConstructor(w.xPoint + w.wSize/2, w.yPoint + w.hSize))
     }
-    drawGame();
+    draw_game();
 }, 1000);
 
 
@@ -188,14 +205,15 @@ let seedAnimationInterval = window.setInterval(() => {
             heartCounter--;
             $('#eatSeed')[0].volume = 1;
             $('#eatSeed')[0].play();
-            if (heartCounter == 0) {
-                console.log("Game Over");
-                $('.gameover_container')[0].style.display = "flex";
+            if (heartCounter < 0) {
+                $('#bgMusic').stop();
+                setTimeout(() => {
+                    window.location = "gameover.html";
+                }, 1000);
             }
             seeds.splice(i, 1);
-            // change_charSource("assets/girlSeed.svg");
             character.src = "assets/girlSeed.svg";
-            draw_character(charX, charY, charWidth, charHeight);
+            // draw_character(charX, charY, charWidth, charHeight);
         }
 
         if (s.y == 700) {
@@ -204,7 +222,7 @@ let seedAnimationInterval = window.setInterval(() => {
 
         s.y += 5
     });
-    drawGame();
+    draw_game();
 }, 50);
 
 
@@ -225,26 +243,17 @@ let sliceAnimationInterval = window.setInterval(() => {
 
         s.y += 5
     });
-    drawGame();
+    draw_game();
 }, 50);
 
 
 let characterChange = window.setInterval(() => {
-    document.getElementById("bgMusic").play();
-    // change_charSource("assets/girlDefault.svg");
     character.src = "assets/girlDefault.svg";
 }, 2000);
 
 
 let newGame = window.setTimeout(() => {
-    // document.getElementById('bgMusic').play();
-    drawGame();
+    draw_game();
     window.clearTimeout(newGame)
 }, 0);
 
-
-$('#home-1').click(
-    function () {
-        window.location = "index.html";
-    }
-);

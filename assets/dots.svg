@@ -1,0 +1,875 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="5076" viewBox="0 0 1920 5076">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="1910" height="5072" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-dots">
+      <rect width="1920" height="5076"/>
+    </clipPath>
+  </defs>
+  <g id="dots" clip-path="url(#clip-dots)">
+    <rect width="1920" height="5076" fill="#fff"/>
+    <g id="Repeat_Grid_1" data-name="Repeat Grid 1" transform="translate(7 4)" clip-path="url(#clip-path)">
+      <g transform="translate(-7 -4)">
+        <g id="dots-2" data-name="dots" transform="translate(0 17)" opacity="0.7">
+          <g id="dot_yellow" transform="translate(536.966 811.592)">
+            <ellipse id="Ellipse_40" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(0.034 0.408)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41" data-name="Ellipse 41" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(13.034 7.408)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-2" data-name="dot_yellow" transform="translate(536.966 811.592)">
+            <ellipse id="Ellipse_40-2" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(0.034 0.408)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-2" data-name="Ellipse 41" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(13.034 7.408)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green" transform="translate(610.121 1038.271)">
+            <circle id="Ellipse_40-3" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.121 -0.271)" fill="#214d09" opacity="0.6"/>
+            <ellipse id="Ellipse_41-3" data-name="Ellipse 41" cx="3.5" cy="4" rx="3.5" ry="4" transform="translate(13.879 6.729)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-2" data-name="dot_green" transform="translate(393.746 634.038)">
+            <ellipse id="Ellipse_40-4" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.254 -0.038)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-4" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.254 6.962)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-3" data-name="dot_yellow" transform="translate(918.199 1007.361)">
+            <circle id="Ellipse_40-5" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.199 -0.361)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-5" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.801 7.639)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-4" data-name="dot_yellow" transform="translate(691.52 729.163)">
+            <ellipse id="Ellipse_40-6" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.48 -0.163)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-6" data-name="Ellipse 41" cx="3.5" cy="4" rx="3.5" ry="4" transform="translate(13.48 6.837)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-3" data-name="dot_green" transform="translate(795.586 878.565)">
+            <circle id="Ellipse_40-7" data-name="Ellipse 40" cx="12" cy="12" r="12" transform="translate(0.414 0.435)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-7" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.414 7.435)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-4" data-name="dot_green" transform="translate(795.586 574.609)">
+            <circle id="Ellipse_40-8" data-name="Ellipse 40" cx="12" cy="12" r="12" transform="translate(0.414 0.391)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-8" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.414 7.391)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-5" data-name="dot_yellow" transform="translate(1031.539 821.896)">
+            <ellipse id="Ellipse_40-9" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.461 0.104)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-9" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.461 7.104)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-6" data-name="dot_yellow" transform="translate(1052.146 358.233)">
+            <circle id="Ellipse_40-10" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.146 -0.233)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-10" data-name="Ellipse 41" cx="3.5" cy="4" rx="3.5" ry="4" transform="translate(13.854 6.767)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-5" data-name="dot_green" transform="translate(1156.213 203.679)">
+            <ellipse id="Ellipse_40-11" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(-0.213 0.321)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-11" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.787 7.321)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-7" data-name="dot_yellow" transform="translate(1392.165 450.966)">
+            <circle id="Ellipse_40-12" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.165 0.034)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-12" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.835 7.034)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-8" data-name="dot_yellow" transform="translate(928.503 640.342)">
+            <ellipse id="Ellipse_40-13" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.497 -0.342)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-13" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.497 7.658)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-6" data-name="dot_green" transform="translate(1176.82 955.843)">
+            <circle id="Ellipse_40-14" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(0.18 0.157)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-14" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.18 7.157)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-9" data-name="dot_yellow" transform="translate(63 337.626)">
+            <ellipse id="Ellipse_40-15" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(0 0.374)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-15" data-name="Ellipse 41" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(13 7.374)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-7" data-name="dot_green" transform="translate(167.066 492.18)">
+            <circle id="Ellipse_40-16" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.066 -0.18)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-16" data-name="Ellipse 41" cx="4" cy="4" r="4" transform="translate(12.934 6.82)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-10" data-name="dot_yellow" transform="translate(403.019 430.359)">
+            <circle id="Ellipse_40-17" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.019 -0.359)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-17" data-name="Ellipse 41" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(12.981 7.641)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-11" data-name="dot_yellow" transform="translate(217.554 255.197)">
+            <ellipse id="Ellipse_40-18" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.446 -0.197)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-18" data-name="Ellipse 41" cx="3.5" cy="4" rx="3.5" ry="4" transform="translate(13.446 6.803)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-8" data-name="dot_green" transform="translate(321.62 100.643)">
+            <circle id="Ellipse_40-19" data-name="Ellipse 40" cx="12" cy="12" r="12" transform="translate(0.38 0.357)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-19" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.38 7.357)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-12" data-name="dot_yellow" transform="translate(557.573 347.93)">
+            <ellipse id="Ellipse_40-20" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.427 0.07)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-20" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.427 7.07)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-9" data-name="dot_green" transform="translate(682.247 38.822)">
+            <circle id="Ellipse_40-21" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.247 0.178)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-21" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.753 7.178)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-13" data-name="dot_yellow" transform="translate(918.199 -13)">
+            <circle id="Ellipse_40-22" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.199)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-22" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.801 7)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-14" data-name="dot_yellow" transform="translate(516.359 193.376)">
+            <circle id="Ellipse_40-23" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.359 -0.376)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-23" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.641 7.624)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-10" data-name="dot_green" transform="translate(1537.446 708.556)">
+            <ellipse id="Ellipse_40-24" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(-0.446 0.444)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-24" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.554 7.444)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-15" data-name="dot_yellow" transform="translate(1814.613 749.77)">
+            <circle id="Ellipse_40-25" data-name="Ellipse 40" cx="12" cy="12" r="12" transform="translate(0.387 0.23)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-25" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.387 7.23)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-11" data-name="dot_green" transform="translate(1310.767 255.197)">
+            <ellipse id="Ellipse_40-26" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.233 -0.197)" fill="#214d09" opacity="0.6"/>
+            <ellipse id="Ellipse_41-26" data-name="Ellipse 41" cx="3.5" cy="4" rx="3.5" ry="4" transform="translate(13.233 6.803)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-12" data-name="dot_green" transform="translate(1692 327.323)">
+            <circle id="Ellipse_40-27" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(0 -0.323)" fill="#214d09" opacity="0.6"/>
+            <ellipse id="Ellipse_41-27" data-name="Ellipse 41" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(13 7.677)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-13" data-name="dot_green" transform="translate(105.245 1038.271)">
+            <circle id="Ellipse_40-28" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.245 -0.271)" fill="#214d09" opacity="0.6"/>
+            <ellipse id="Ellipse_41-28" data-name="Ellipse 41" cx="3.5" cy="4" rx="3.5" ry="4" transform="translate(13.755 6.729)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-16" data-name="dot_yellow" transform="translate(1660.059 152.161)">
+            <circle id="Ellipse_40-29" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.059 -0.161)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-29" data-name="Ellipse 41" cx="4" cy="4" r="4" transform="translate(12.941 6.839)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-17" data-name="dot_yellow" transform="translate(1587.934 924.932)">
+            <circle id="Ellipse_40-30" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(0.066 0.068)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-30" data-name="Ellipse 41" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(13.066 7.068)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-18" data-name="dot_yellow" transform="translate(1732.184 554.002)">
+            <circle id="Ellipse_40-31" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.184 -0.002)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-31" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.816 6.998)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-19" data-name="dot_yellow" transform="translate(1392.165 69.732)">
+            <ellipse id="Ellipse_40-32" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(-0.165 0.268)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-32" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.835 7.268)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-20" data-name="dot_yellow" transform="translate(6.966 811.592)">
+            <ellipse id="Ellipse_40-33" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(0.034 0.408)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-33" data-name="Ellipse 41" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(13.034 7.408)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-21" data-name="dot_yellow" transform="translate(286.966 931.592)">
+            <ellipse id="Ellipse_40-34" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(0.034 0.408)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-34" data-name="Ellipse 41" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(13.034 7.408)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-22" data-name="dot_yellow" transform="translate(1211.539 671.896)">
+            <ellipse id="Ellipse_40-35" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.461 0.104)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-35" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.461 7.104)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-23" data-name="dot_yellow" transform="translate(831.539 261.896)">
+            <ellipse id="Ellipse_40-36" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.461 0.104)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-36" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.461 7.104)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-24" data-name="dot_yellow" transform="translate(51.539 61.896)">
+            <ellipse id="Ellipse_40-37" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.461 0.104)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-37" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.461 7.104)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-25" data-name="dot_yellow" transform="translate(1592.165 450.966)">
+            <circle id="Ellipse_40-38" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.165 0.034)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-38" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.835 7.034)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-14" data-name="dot_green" transform="translate(1737.446 708.556)">
+            <ellipse id="Ellipse_40-39" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(-0.446 0.444)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-39" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.554 7.444)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-15" data-name="dot_green" transform="translate(1892 327.323)">
+            <circle id="Ellipse_40-40" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(0 -0.323)" fill="#214d09" opacity="0.6"/>
+            <ellipse id="Ellipse_41-40" data-name="Ellipse 41" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(13 7.677)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-26" data-name="dot_yellow" transform="translate(1844.613 989.77)">
+            <circle id="Ellipse_40-41" data-name="Ellipse 40" cx="12" cy="12" r="12" transform="translate(0.387 0.23)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-41" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.387 7.23)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-16" data-name="dot_green" transform="translate(1767.446 948.556)">
+            <ellipse id="Ellipse_40-42" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(-0.446 0.444)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-42" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.554 7.444)" fill="#fffff8"/>
+          </g>
+        </g>
+      </g>
+      <g transform="translate(-7 1092)">
+        <g id="dots-3" data-name="dots" transform="translate(0 17)" opacity="0.7">
+          <g id="dot_yellow-27" data-name="dot_yellow" transform="translate(536.966 811.592)">
+            <ellipse id="Ellipse_40-43" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(0.034 0.408)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-43" data-name="Ellipse 41" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(13.034 7.408)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-28" data-name="dot_yellow" transform="translate(536.966 811.592)">
+            <ellipse id="Ellipse_40-44" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(0.034 0.408)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-44" data-name="Ellipse 41" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(13.034 7.408)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-17" data-name="dot_green" transform="translate(610.121 1038.271)">
+            <circle id="Ellipse_40-45" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.121 -0.271)" fill="#214d09" opacity="0.6"/>
+            <ellipse id="Ellipse_41-45" data-name="Ellipse 41" cx="3.5" cy="4" rx="3.5" ry="4" transform="translate(13.879 6.729)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-18" data-name="dot_green" transform="translate(393.746 634.038)">
+            <ellipse id="Ellipse_40-46" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.254 -0.038)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-46" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.254 6.962)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-29" data-name="dot_yellow" transform="translate(918.199 1007.361)">
+            <circle id="Ellipse_40-47" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.199 -0.361)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-47" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.801 7.639)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-30" data-name="dot_yellow" transform="translate(691.52 729.163)">
+            <ellipse id="Ellipse_40-48" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.48 -0.163)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-48" data-name="Ellipse 41" cx="3.5" cy="4" rx="3.5" ry="4" transform="translate(13.48 6.837)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-19" data-name="dot_green" transform="translate(795.586 878.565)">
+            <circle id="Ellipse_40-49" data-name="Ellipse 40" cx="12" cy="12" r="12" transform="translate(0.414 0.435)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-49" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.414 7.435)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-20" data-name="dot_green" transform="translate(795.586 574.609)">
+            <circle id="Ellipse_40-50" data-name="Ellipse 40" cx="12" cy="12" r="12" transform="translate(0.414 0.391)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-50" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.414 7.391)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-31" data-name="dot_yellow" transform="translate(1031.539 821.896)">
+            <ellipse id="Ellipse_40-51" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.461 0.104)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-51" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.461 7.104)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-32" data-name="dot_yellow" transform="translate(1052.146 358.233)">
+            <circle id="Ellipse_40-52" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.146 -0.233)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-52" data-name="Ellipse 41" cx="3.5" cy="4" rx="3.5" ry="4" transform="translate(13.854 6.767)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-21" data-name="dot_green" transform="translate(1156.213 203.679)">
+            <ellipse id="Ellipse_40-53" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(-0.213 0.321)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-53" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.787 7.321)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-33" data-name="dot_yellow" transform="translate(1392.165 450.966)">
+            <circle id="Ellipse_40-54" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.165 0.034)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-54" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.835 7.034)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-34" data-name="dot_yellow" transform="translate(928.503 640.342)">
+            <ellipse id="Ellipse_40-55" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.497 -0.342)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-55" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.497 7.658)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-22" data-name="dot_green" transform="translate(1176.82 955.843)">
+            <circle id="Ellipse_40-56" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(0.18 0.157)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-56" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.18 7.157)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-35" data-name="dot_yellow" transform="translate(63 337.626)">
+            <ellipse id="Ellipse_40-57" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(0 0.374)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-57" data-name="Ellipse 41" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(13 7.374)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-23" data-name="dot_green" transform="translate(167.066 492.18)">
+            <circle id="Ellipse_40-58" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.066 -0.18)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-58" data-name="Ellipse 41" cx="4" cy="4" r="4" transform="translate(12.934 6.82)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-36" data-name="dot_yellow" transform="translate(403.019 430.359)">
+            <circle id="Ellipse_40-59" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.019 -0.359)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-59" data-name="Ellipse 41" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(12.981 7.641)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-37" data-name="dot_yellow" transform="translate(217.554 255.197)">
+            <ellipse id="Ellipse_40-60" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.446 -0.197)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-60" data-name="Ellipse 41" cx="3.5" cy="4" rx="3.5" ry="4" transform="translate(13.446 6.803)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-24" data-name="dot_green" transform="translate(321.62 100.643)">
+            <circle id="Ellipse_40-61" data-name="Ellipse 40" cx="12" cy="12" r="12" transform="translate(0.38 0.357)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-61" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.38 7.357)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-38" data-name="dot_yellow" transform="translate(557.573 347.93)">
+            <ellipse id="Ellipse_40-62" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.427 0.07)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-62" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.427 7.07)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-25" data-name="dot_green" transform="translate(682.247 38.822)">
+            <circle id="Ellipse_40-63" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.247 0.178)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-63" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.753 7.178)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-39" data-name="dot_yellow" transform="translate(918.199 -13)">
+            <circle id="Ellipse_40-64" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.199)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-64" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.801 7)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-40" data-name="dot_yellow" transform="translate(516.359 193.376)">
+            <circle id="Ellipse_40-65" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.359 -0.376)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-65" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.641 7.624)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-26" data-name="dot_green" transform="translate(1537.446 708.556)">
+            <ellipse id="Ellipse_40-66" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(-0.446 0.444)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-66" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.554 7.444)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-41" data-name="dot_yellow" transform="translate(1814.613 749.77)">
+            <circle id="Ellipse_40-67" data-name="Ellipse 40" cx="12" cy="12" r="12" transform="translate(0.387 0.23)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-67" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.387 7.23)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-27" data-name="dot_green" transform="translate(1310.767 255.197)">
+            <ellipse id="Ellipse_40-68" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.233 -0.197)" fill="#214d09" opacity="0.6"/>
+            <ellipse id="Ellipse_41-68" data-name="Ellipse 41" cx="3.5" cy="4" rx="3.5" ry="4" transform="translate(13.233 6.803)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-28" data-name="dot_green" transform="translate(1692 327.323)">
+            <circle id="Ellipse_40-69" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(0 -0.323)" fill="#214d09" opacity="0.6"/>
+            <ellipse id="Ellipse_41-69" data-name="Ellipse 41" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(13 7.677)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-29" data-name="dot_green" transform="translate(105.245 1038.271)">
+            <circle id="Ellipse_40-70" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.245 -0.271)" fill="#214d09" opacity="0.6"/>
+            <ellipse id="Ellipse_41-70" data-name="Ellipse 41" cx="3.5" cy="4" rx="3.5" ry="4" transform="translate(13.755 6.729)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-42" data-name="dot_yellow" transform="translate(1660.059 152.161)">
+            <circle id="Ellipse_40-71" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.059 -0.161)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-71" data-name="Ellipse 41" cx="4" cy="4" r="4" transform="translate(12.941 6.839)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-43" data-name="dot_yellow" transform="translate(1587.934 924.932)">
+            <circle id="Ellipse_40-72" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(0.066 0.068)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-72" data-name="Ellipse 41" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(13.066 7.068)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-44" data-name="dot_yellow" transform="translate(1732.184 554.002)">
+            <circle id="Ellipse_40-73" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.184 -0.002)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-73" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.816 6.998)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-45" data-name="dot_yellow" transform="translate(1392.165 69.732)">
+            <ellipse id="Ellipse_40-74" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(-0.165 0.268)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-74" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.835 7.268)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-46" data-name="dot_yellow" transform="translate(6.966 811.592)">
+            <ellipse id="Ellipse_40-75" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(0.034 0.408)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-75" data-name="Ellipse 41" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(13.034 7.408)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-47" data-name="dot_yellow" transform="translate(286.966 931.592)">
+            <ellipse id="Ellipse_40-76" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(0.034 0.408)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-76" data-name="Ellipse 41" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(13.034 7.408)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-48" data-name="dot_yellow" transform="translate(1211.539 671.896)">
+            <ellipse id="Ellipse_40-77" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.461 0.104)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-77" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.461 7.104)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-49" data-name="dot_yellow" transform="translate(831.539 261.896)">
+            <ellipse id="Ellipse_40-78" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.461 0.104)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-78" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.461 7.104)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-50" data-name="dot_yellow" transform="translate(51.539 61.896)">
+            <ellipse id="Ellipse_40-79" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.461 0.104)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-79" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.461 7.104)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-51" data-name="dot_yellow" transform="translate(1592.165 450.966)">
+            <circle id="Ellipse_40-80" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.165 0.034)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-80" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.835 7.034)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-30" data-name="dot_green" transform="translate(1737.446 708.556)">
+            <ellipse id="Ellipse_40-81" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(-0.446 0.444)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-81" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.554 7.444)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-31" data-name="dot_green" transform="translate(1892 327.323)">
+            <circle id="Ellipse_40-82" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(0 -0.323)" fill="#214d09" opacity="0.6"/>
+            <ellipse id="Ellipse_41-82" data-name="Ellipse 41" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(13 7.677)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-52" data-name="dot_yellow" transform="translate(1844.613 989.77)">
+            <circle id="Ellipse_40-83" data-name="Ellipse 40" cx="12" cy="12" r="12" transform="translate(0.387 0.23)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-83" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.387 7.23)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-32" data-name="dot_green" transform="translate(1767.446 948.556)">
+            <ellipse id="Ellipse_40-84" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(-0.446 0.444)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-84" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.554 7.444)" fill="#fffff8"/>
+          </g>
+        </g>
+      </g>
+      <g transform="translate(-7 2188)">
+        <g id="dots-4" data-name="dots" transform="translate(0 17)" opacity="0.7">
+          <g id="dot_yellow-53" data-name="dot_yellow" transform="translate(536.966 811.592)">
+            <ellipse id="Ellipse_40-85" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(0.034 0.408)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-85" data-name="Ellipse 41" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(13.034 7.408)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-54" data-name="dot_yellow" transform="translate(536.966 811.592)">
+            <ellipse id="Ellipse_40-86" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(0.034 0.408)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-86" data-name="Ellipse 41" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(13.034 7.408)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-33" data-name="dot_green" transform="translate(610.121 1038.271)">
+            <circle id="Ellipse_40-87" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.121 -0.271)" fill="#214d09" opacity="0.6"/>
+            <ellipse id="Ellipse_41-87" data-name="Ellipse 41" cx="3.5" cy="4" rx="3.5" ry="4" transform="translate(13.879 6.729)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-34" data-name="dot_green" transform="translate(393.746 634.038)">
+            <ellipse id="Ellipse_40-88" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.254 -0.038)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-88" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.254 6.962)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-55" data-name="dot_yellow" transform="translate(918.199 1007.361)">
+            <circle id="Ellipse_40-89" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.199 -0.361)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-89" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.801 7.639)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-56" data-name="dot_yellow" transform="translate(691.52 729.163)">
+            <ellipse id="Ellipse_40-90" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.48 -0.163)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-90" data-name="Ellipse 41" cx="3.5" cy="4" rx="3.5" ry="4" transform="translate(13.48 6.837)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-35" data-name="dot_green" transform="translate(795.586 878.565)">
+            <circle id="Ellipse_40-91" data-name="Ellipse 40" cx="12" cy="12" r="12" transform="translate(0.414 0.435)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-91" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.414 7.435)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-36" data-name="dot_green" transform="translate(795.586 574.609)">
+            <circle id="Ellipse_40-92" data-name="Ellipse 40" cx="12" cy="12" r="12" transform="translate(0.414 0.391)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-92" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.414 7.391)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-57" data-name="dot_yellow" transform="translate(1031.539 821.896)">
+            <ellipse id="Ellipse_40-93" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.461 0.104)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-93" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.461 7.104)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-58" data-name="dot_yellow" transform="translate(1052.146 358.233)">
+            <circle id="Ellipse_40-94" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.146 -0.233)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-94" data-name="Ellipse 41" cx="3.5" cy="4" rx="3.5" ry="4" transform="translate(13.854 6.767)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-37" data-name="dot_green" transform="translate(1156.213 203.679)">
+            <ellipse id="Ellipse_40-95" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(-0.213 0.321)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-95" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.787 7.321)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-59" data-name="dot_yellow" transform="translate(1392.165 450.966)">
+            <circle id="Ellipse_40-96" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.165 0.034)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-96" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.835 7.034)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-60" data-name="dot_yellow" transform="translate(928.503 640.342)">
+            <ellipse id="Ellipse_40-97" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.497 -0.342)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-97" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.497 7.658)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-38" data-name="dot_green" transform="translate(1176.82 955.843)">
+            <circle id="Ellipse_40-98" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(0.18 0.157)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-98" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.18 7.157)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-61" data-name="dot_yellow" transform="translate(63 337.626)">
+            <ellipse id="Ellipse_40-99" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(0 0.374)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-99" data-name="Ellipse 41" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(13 7.374)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-39" data-name="dot_green" transform="translate(167.066 492.18)">
+            <circle id="Ellipse_40-100" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.066 -0.18)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-100" data-name="Ellipse 41" cx="4" cy="4" r="4" transform="translate(12.934 6.82)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-62" data-name="dot_yellow" transform="translate(403.019 430.359)">
+            <circle id="Ellipse_40-101" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.019 -0.359)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-101" data-name="Ellipse 41" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(12.981 7.641)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-63" data-name="dot_yellow" transform="translate(217.554 255.197)">
+            <ellipse id="Ellipse_40-102" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.446 -0.197)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-102" data-name="Ellipse 41" cx="3.5" cy="4" rx="3.5" ry="4" transform="translate(13.446 6.803)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-40" data-name="dot_green" transform="translate(321.62 100.643)">
+            <circle id="Ellipse_40-103" data-name="Ellipse 40" cx="12" cy="12" r="12" transform="translate(0.38 0.357)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-103" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.38 7.357)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-64" data-name="dot_yellow" transform="translate(557.573 347.93)">
+            <ellipse id="Ellipse_40-104" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.427 0.07)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-104" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.427 7.07)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-41" data-name="dot_green" transform="translate(682.247 38.822)">
+            <circle id="Ellipse_40-105" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.247 0.178)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-105" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.753 7.178)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-65" data-name="dot_yellow" transform="translate(918.199 -13)">
+            <circle id="Ellipse_40-106" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.199)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-106" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.801 7)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-66" data-name="dot_yellow" transform="translate(516.359 193.376)">
+            <circle id="Ellipse_40-107" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.359 -0.376)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-107" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.641 7.624)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-42" data-name="dot_green" transform="translate(1537.446 708.556)">
+            <ellipse id="Ellipse_40-108" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(-0.446 0.444)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-108" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.554 7.444)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-67" data-name="dot_yellow" transform="translate(1814.613 749.77)">
+            <circle id="Ellipse_40-109" data-name="Ellipse 40" cx="12" cy="12" r="12" transform="translate(0.387 0.23)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-109" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.387 7.23)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-43" data-name="dot_green" transform="translate(1310.767 255.197)">
+            <ellipse id="Ellipse_40-110" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.233 -0.197)" fill="#214d09" opacity="0.6"/>
+            <ellipse id="Ellipse_41-110" data-name="Ellipse 41" cx="3.5" cy="4" rx="3.5" ry="4" transform="translate(13.233 6.803)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-44" data-name="dot_green" transform="translate(1692 327.323)">
+            <circle id="Ellipse_40-111" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(0 -0.323)" fill="#214d09" opacity="0.6"/>
+            <ellipse id="Ellipse_41-111" data-name="Ellipse 41" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(13 7.677)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-45" data-name="dot_green" transform="translate(105.245 1038.271)">
+            <circle id="Ellipse_40-112" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.245 -0.271)" fill="#214d09" opacity="0.6"/>
+            <ellipse id="Ellipse_41-112" data-name="Ellipse 41" cx="3.5" cy="4" rx="3.5" ry="4" transform="translate(13.755 6.729)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-68" data-name="dot_yellow" transform="translate(1660.059 152.161)">
+            <circle id="Ellipse_40-113" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.059 -0.161)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-113" data-name="Ellipse 41" cx="4" cy="4" r="4" transform="translate(12.941 6.839)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-69" data-name="dot_yellow" transform="translate(1587.934 924.932)">
+            <circle id="Ellipse_40-114" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(0.066 0.068)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-114" data-name="Ellipse 41" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(13.066 7.068)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-70" data-name="dot_yellow" transform="translate(1732.184 554.002)">
+            <circle id="Ellipse_40-115" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.184 -0.002)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-115" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.816 6.998)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-71" data-name="dot_yellow" transform="translate(1392.165 69.732)">
+            <ellipse id="Ellipse_40-116" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(-0.165 0.268)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-116" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.835 7.268)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-72" data-name="dot_yellow" transform="translate(6.966 811.592)">
+            <ellipse id="Ellipse_40-117" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(0.034 0.408)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-117" data-name="Ellipse 41" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(13.034 7.408)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-73" data-name="dot_yellow" transform="translate(286.966 931.592)">
+            <ellipse id="Ellipse_40-118" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(0.034 0.408)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-118" data-name="Ellipse 41" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(13.034 7.408)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-74" data-name="dot_yellow" transform="translate(1211.539 671.896)">
+            <ellipse id="Ellipse_40-119" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.461 0.104)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-119" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.461 7.104)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-75" data-name="dot_yellow" transform="translate(831.539 261.896)">
+            <ellipse id="Ellipse_40-120" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.461 0.104)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-120" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.461 7.104)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-76" data-name="dot_yellow" transform="translate(51.539 61.896)">
+            <ellipse id="Ellipse_40-121" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.461 0.104)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-121" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.461 7.104)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-77" data-name="dot_yellow" transform="translate(1592.165 450.966)">
+            <circle id="Ellipse_40-122" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.165 0.034)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-122" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.835 7.034)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-46" data-name="dot_green" transform="translate(1737.446 708.556)">
+            <ellipse id="Ellipse_40-123" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(-0.446 0.444)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-123" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.554 7.444)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-47" data-name="dot_green" transform="translate(1892 327.323)">
+            <circle id="Ellipse_40-124" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(0 -0.323)" fill="#214d09" opacity="0.6"/>
+            <ellipse id="Ellipse_41-124" data-name="Ellipse 41" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(13 7.677)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-78" data-name="dot_yellow" transform="translate(1844.613 989.77)">
+            <circle id="Ellipse_40-125" data-name="Ellipse 40" cx="12" cy="12" r="12" transform="translate(0.387 0.23)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-125" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.387 7.23)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-48" data-name="dot_green" transform="translate(1767.446 948.556)">
+            <ellipse id="Ellipse_40-126" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(-0.446 0.444)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-126" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.554 7.444)" fill="#fffff8"/>
+          </g>
+        </g>
+      </g>
+      <g transform="translate(-7 3284)">
+        <g id="dots-5" data-name="dots" transform="translate(0 17)" opacity="0.7">
+          <g id="dot_yellow-79" data-name="dot_yellow" transform="translate(536.966 811.592)">
+            <ellipse id="Ellipse_40-127" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(0.034 0.408)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-127" data-name="Ellipse 41" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(13.034 7.408)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-80" data-name="dot_yellow" transform="translate(536.966 811.592)">
+            <ellipse id="Ellipse_40-128" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(0.034 0.408)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-128" data-name="Ellipse 41" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(13.034 7.408)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-49" data-name="dot_green" transform="translate(610.121 1038.271)">
+            <circle id="Ellipse_40-129" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.121 -0.271)" fill="#214d09" opacity="0.6"/>
+            <ellipse id="Ellipse_41-129" data-name="Ellipse 41" cx="3.5" cy="4" rx="3.5" ry="4" transform="translate(13.879 6.729)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-50" data-name="dot_green" transform="translate(393.746 634.038)">
+            <ellipse id="Ellipse_40-130" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.254 -0.038)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-130" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.254 6.962)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-81" data-name="dot_yellow" transform="translate(918.199 1007.361)">
+            <circle id="Ellipse_40-131" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.199 -0.361)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-131" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.801 7.639)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-82" data-name="dot_yellow" transform="translate(691.52 729.163)">
+            <ellipse id="Ellipse_40-132" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.48 -0.163)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-132" data-name="Ellipse 41" cx="3.5" cy="4" rx="3.5" ry="4" transform="translate(13.48 6.837)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-51" data-name="dot_green" transform="translate(795.586 878.565)">
+            <circle id="Ellipse_40-133" data-name="Ellipse 40" cx="12" cy="12" r="12" transform="translate(0.414 0.435)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-133" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.414 7.435)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-52" data-name="dot_green" transform="translate(795.586 574.609)">
+            <circle id="Ellipse_40-134" data-name="Ellipse 40" cx="12" cy="12" r="12" transform="translate(0.414 0.391)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-134" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.414 7.391)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-83" data-name="dot_yellow" transform="translate(1031.539 821.896)">
+            <ellipse id="Ellipse_40-135" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.461 0.104)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-135" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.461 7.104)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-84" data-name="dot_yellow" transform="translate(1052.146 358.233)">
+            <circle id="Ellipse_40-136" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.146 -0.233)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-136" data-name="Ellipse 41" cx="3.5" cy="4" rx="3.5" ry="4" transform="translate(13.854 6.767)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-53" data-name="dot_green" transform="translate(1156.213 203.679)">
+            <ellipse id="Ellipse_40-137" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(-0.213 0.321)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-137" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.787 7.321)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-85" data-name="dot_yellow" transform="translate(1392.165 450.966)">
+            <circle id="Ellipse_40-138" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.165 0.034)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-138" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.835 7.034)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-86" data-name="dot_yellow" transform="translate(928.503 640.342)">
+            <ellipse id="Ellipse_40-139" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.497 -0.342)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-139" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.497 7.658)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-54" data-name="dot_green" transform="translate(1176.82 955.843)">
+            <circle id="Ellipse_40-140" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(0.18 0.157)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-140" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.18 7.157)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-87" data-name="dot_yellow" transform="translate(63 337.626)">
+            <ellipse id="Ellipse_40-141" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(0 0.374)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-141" data-name="Ellipse 41" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(13 7.374)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-55" data-name="dot_green" transform="translate(167.066 492.18)">
+            <circle id="Ellipse_40-142" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.066 -0.18)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-142" data-name="Ellipse 41" cx="4" cy="4" r="4" transform="translate(12.934 6.82)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-88" data-name="dot_yellow" transform="translate(403.019 430.359)">
+            <circle id="Ellipse_40-143" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.019 -0.359)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-143" data-name="Ellipse 41" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(12.981 7.641)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-89" data-name="dot_yellow" transform="translate(217.554 255.197)">
+            <ellipse id="Ellipse_40-144" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.446 -0.197)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-144" data-name="Ellipse 41" cx="3.5" cy="4" rx="3.5" ry="4" transform="translate(13.446 6.803)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-56" data-name="dot_green" transform="translate(321.62 100.643)">
+            <circle id="Ellipse_40-145" data-name="Ellipse 40" cx="12" cy="12" r="12" transform="translate(0.38 0.357)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-145" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.38 7.357)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-90" data-name="dot_yellow" transform="translate(557.573 347.93)">
+            <ellipse id="Ellipse_40-146" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.427 0.07)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-146" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.427 7.07)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-57" data-name="dot_green" transform="translate(682.247 38.822)">
+            <circle id="Ellipse_40-147" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.247 0.178)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-147" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.753 7.178)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-91" data-name="dot_yellow" transform="translate(918.199 -13)">
+            <circle id="Ellipse_40-148" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.199)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-148" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.801 7)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-92" data-name="dot_yellow" transform="translate(516.359 193.376)">
+            <circle id="Ellipse_40-149" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.359 -0.376)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-149" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.641 7.624)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-58" data-name="dot_green" transform="translate(1537.446 708.556)">
+            <ellipse id="Ellipse_40-150" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(-0.446 0.444)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-150" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.554 7.444)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-93" data-name="dot_yellow" transform="translate(1814.613 749.77)">
+            <circle id="Ellipse_40-151" data-name="Ellipse 40" cx="12" cy="12" r="12" transform="translate(0.387 0.23)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-151" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.387 7.23)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-59" data-name="dot_green" transform="translate(1310.767 255.197)">
+            <ellipse id="Ellipse_40-152" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.233 -0.197)" fill="#214d09" opacity="0.6"/>
+            <ellipse id="Ellipse_41-152" data-name="Ellipse 41" cx="3.5" cy="4" rx="3.5" ry="4" transform="translate(13.233 6.803)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-60" data-name="dot_green" transform="translate(1692 327.323)">
+            <circle id="Ellipse_40-153" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(0 -0.323)" fill="#214d09" opacity="0.6"/>
+            <ellipse id="Ellipse_41-153" data-name="Ellipse 41" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(13 7.677)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-61" data-name="dot_green" transform="translate(105.245 1038.271)">
+            <circle id="Ellipse_40-154" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.245 -0.271)" fill="#214d09" opacity="0.6"/>
+            <ellipse id="Ellipse_41-154" data-name="Ellipse 41" cx="3.5" cy="4" rx="3.5" ry="4" transform="translate(13.755 6.729)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-94" data-name="dot_yellow" transform="translate(1660.059 152.161)">
+            <circle id="Ellipse_40-155" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.059 -0.161)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-155" data-name="Ellipse 41" cx="4" cy="4" r="4" transform="translate(12.941 6.839)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-95" data-name="dot_yellow" transform="translate(1587.934 924.932)">
+            <circle id="Ellipse_40-156" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(0.066 0.068)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-156" data-name="Ellipse 41" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(13.066 7.068)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-96" data-name="dot_yellow" transform="translate(1732.184 554.002)">
+            <circle id="Ellipse_40-157" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.184 -0.002)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-157" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.816 6.998)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-97" data-name="dot_yellow" transform="translate(1392.165 69.732)">
+            <ellipse id="Ellipse_40-158" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(-0.165 0.268)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-158" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.835 7.268)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-98" data-name="dot_yellow" transform="translate(6.966 811.592)">
+            <ellipse id="Ellipse_40-159" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(0.034 0.408)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-159" data-name="Ellipse 41" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(13.034 7.408)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-99" data-name="dot_yellow" transform="translate(286.966 931.592)">
+            <ellipse id="Ellipse_40-160" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(0.034 0.408)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-160" data-name="Ellipse 41" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(13.034 7.408)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-100" data-name="dot_yellow" transform="translate(1211.539 671.896)">
+            <ellipse id="Ellipse_40-161" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.461 0.104)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-161" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.461 7.104)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-101" data-name="dot_yellow" transform="translate(831.539 261.896)">
+            <ellipse id="Ellipse_40-162" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.461 0.104)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-162" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.461 7.104)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-102" data-name="dot_yellow" transform="translate(51.539 61.896)">
+            <ellipse id="Ellipse_40-163" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.461 0.104)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-163" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.461 7.104)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-103" data-name="dot_yellow" transform="translate(1592.165 450.966)">
+            <circle id="Ellipse_40-164" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.165 0.034)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-164" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.835 7.034)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-62" data-name="dot_green" transform="translate(1737.446 708.556)">
+            <ellipse id="Ellipse_40-165" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(-0.446 0.444)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-165" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.554 7.444)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-63" data-name="dot_green" transform="translate(1892 327.323)">
+            <circle id="Ellipse_40-166" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(0 -0.323)" fill="#214d09" opacity="0.6"/>
+            <ellipse id="Ellipse_41-166" data-name="Ellipse 41" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(13 7.677)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-104" data-name="dot_yellow" transform="translate(1844.613 989.77)">
+            <circle id="Ellipse_40-167" data-name="Ellipse 40" cx="12" cy="12" r="12" transform="translate(0.387 0.23)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-167" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.387 7.23)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-64" data-name="dot_green" transform="translate(1767.446 948.556)">
+            <ellipse id="Ellipse_40-168" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(-0.446 0.444)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-168" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.554 7.444)" fill="#fffff8"/>
+          </g>
+        </g>
+      </g>
+      <g transform="translate(-7 4380)">
+        <g id="dots-6" data-name="dots" transform="translate(0 17)" opacity="0.7">
+          <g id="dot_yellow-105" data-name="dot_yellow" transform="translate(536.966 811.592)">
+            <ellipse id="Ellipse_40-169" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(0.034 0.408)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-169" data-name="Ellipse 41" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(13.034 7.408)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-106" data-name="dot_yellow" transform="translate(536.966 811.592)">
+            <ellipse id="Ellipse_40-170" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(0.034 0.408)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-170" data-name="Ellipse 41" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(13.034 7.408)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-65" data-name="dot_green" transform="translate(610.121 1038.271)">
+            <circle id="Ellipse_40-171" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.121 -0.271)" fill="#214d09" opacity="0.6"/>
+            <ellipse id="Ellipse_41-171" data-name="Ellipse 41" cx="3.5" cy="4" rx="3.5" ry="4" transform="translate(13.879 6.729)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-66" data-name="dot_green" transform="translate(393.746 634.038)">
+            <ellipse id="Ellipse_40-172" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.254 -0.038)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-172" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.254 6.962)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-107" data-name="dot_yellow" transform="translate(918.199 1007.361)">
+            <circle id="Ellipse_40-173" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.199 -0.361)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-173" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.801 7.639)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-108" data-name="dot_yellow" transform="translate(691.52 729.163)">
+            <ellipse id="Ellipse_40-174" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.48 -0.163)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-174" data-name="Ellipse 41" cx="3.5" cy="4" rx="3.5" ry="4" transform="translate(13.48 6.837)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-67" data-name="dot_green" transform="translate(795.586 878.565)">
+            <circle id="Ellipse_40-175" data-name="Ellipse 40" cx="12" cy="12" r="12" transform="translate(0.414 0.435)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-175" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.414 7.435)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-68" data-name="dot_green" transform="translate(795.586 574.609)">
+            <circle id="Ellipse_40-176" data-name="Ellipse 40" cx="12" cy="12" r="12" transform="translate(0.414 0.391)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-176" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.414 7.391)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-109" data-name="dot_yellow" transform="translate(1031.539 821.896)">
+            <ellipse id="Ellipse_40-177" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.461 0.104)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-177" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.461 7.104)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-110" data-name="dot_yellow" transform="translate(1052.146 358.233)">
+            <circle id="Ellipse_40-178" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.146 -0.233)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-178" data-name="Ellipse 41" cx="3.5" cy="4" rx="3.5" ry="4" transform="translate(13.854 6.767)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-69" data-name="dot_green" transform="translate(1156.213 203.679)">
+            <ellipse id="Ellipse_40-179" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(-0.213 0.321)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-179" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.787 7.321)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-111" data-name="dot_yellow" transform="translate(1392.165 450.966)">
+            <circle id="Ellipse_40-180" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.165 0.034)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-180" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.835 7.034)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-112" data-name="dot_yellow" transform="translate(928.503 640.342)">
+            <ellipse id="Ellipse_40-181" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.497 -0.342)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-181" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.497 7.658)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-70" data-name="dot_green" transform="translate(1176.82 955.843)">
+            <circle id="Ellipse_40-182" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(0.18 0.157)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-182" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.18 7.157)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-113" data-name="dot_yellow" transform="translate(63 337.626)">
+            <ellipse id="Ellipse_40-183" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(0 0.374)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-183" data-name="Ellipse 41" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(13 7.374)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-71" data-name="dot_green" transform="translate(167.066 492.18)">
+            <circle id="Ellipse_40-184" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.066 -0.18)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-184" data-name="Ellipse 41" cx="4" cy="4" r="4" transform="translate(12.934 6.82)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-114" data-name="dot_yellow" transform="translate(403.019 430.359)">
+            <circle id="Ellipse_40-185" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.019 -0.359)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-185" data-name="Ellipse 41" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(12.981 7.641)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-115" data-name="dot_yellow" transform="translate(217.554 255.197)">
+            <ellipse id="Ellipse_40-186" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.446 -0.197)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-186" data-name="Ellipse 41" cx="3.5" cy="4" rx="3.5" ry="4" transform="translate(13.446 6.803)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-72" data-name="dot_green" transform="translate(321.62 100.643)">
+            <circle id="Ellipse_40-187" data-name="Ellipse 40" cx="12" cy="12" r="12" transform="translate(0.38 0.357)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-187" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.38 7.357)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-116" data-name="dot_yellow" transform="translate(557.573 347.93)">
+            <ellipse id="Ellipse_40-188" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.427 0.07)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-188" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.427 7.07)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-73" data-name="dot_green" transform="translate(682.247 38.822)">
+            <circle id="Ellipse_40-189" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.247 0.178)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-189" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.753 7.178)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-117" data-name="dot_yellow" transform="translate(918.199 -13)">
+            <circle id="Ellipse_40-190" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.199)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-190" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.801 7)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-118" data-name="dot_yellow" transform="translate(516.359 193.376)">
+            <circle id="Ellipse_40-191" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.359 -0.376)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-191" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.641 7.624)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-74" data-name="dot_green" transform="translate(1537.446 708.556)">
+            <ellipse id="Ellipse_40-192" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(-0.446 0.444)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-192" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.554 7.444)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-119" data-name="dot_yellow" transform="translate(1814.613 749.77)">
+            <circle id="Ellipse_40-193" data-name="Ellipse 40" cx="12" cy="12" r="12" transform="translate(0.387 0.23)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-193" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.387 7.23)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-75" data-name="dot_green" transform="translate(1310.767 255.197)">
+            <ellipse id="Ellipse_40-194" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.233 -0.197)" fill="#214d09" opacity="0.6"/>
+            <ellipse id="Ellipse_41-194" data-name="Ellipse 41" cx="3.5" cy="4" rx="3.5" ry="4" transform="translate(13.233 6.803)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-76" data-name="dot_green" transform="translate(1692 327.323)">
+            <circle id="Ellipse_40-195" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(0 -0.323)" fill="#214d09" opacity="0.6"/>
+            <ellipse id="Ellipse_41-195" data-name="Ellipse 41" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(13 7.677)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-77" data-name="dot_green" transform="translate(105.245 1038.271)">
+            <circle id="Ellipse_40-196" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.245 -0.271)" fill="#214d09" opacity="0.6"/>
+            <ellipse id="Ellipse_41-196" data-name="Ellipse 41" cx="3.5" cy="4" rx="3.5" ry="4" transform="translate(13.755 6.729)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-120" data-name="dot_yellow" transform="translate(1660.059 152.161)">
+            <circle id="Ellipse_40-197" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.059 -0.161)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-197" data-name="Ellipse 41" cx="4" cy="4" r="4" transform="translate(12.941 6.839)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-121" data-name="dot_yellow" transform="translate(1587.934 924.932)">
+            <circle id="Ellipse_40-198" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(0.066 0.068)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-198" data-name="Ellipse 41" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(13.066 7.068)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-122" data-name="dot_yellow" transform="translate(1732.184 554.002)">
+            <circle id="Ellipse_40-199" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.184 -0.002)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-199" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.816 6.998)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-123" data-name="dot_yellow" transform="translate(1392.165 69.732)">
+            <ellipse id="Ellipse_40-200" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(-0.165 0.268)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-200" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.835 7.268)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-124" data-name="dot_yellow" transform="translate(6.966 811.592)">
+            <ellipse id="Ellipse_40-201" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(0.034 0.408)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-201" data-name="Ellipse 41" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(13.034 7.408)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-125" data-name="dot_yellow" transform="translate(286.966 931.592)">
+            <ellipse id="Ellipse_40-202" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(0.034 0.408)" fill="#ff0" opacity="0.6"/>
+            <ellipse id="Ellipse_41-202" data-name="Ellipse 41" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(13.034 7.408)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-126" data-name="dot_yellow" transform="translate(1211.539 671.896)">
+            <ellipse id="Ellipse_40-203" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.461 0.104)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-203" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.461 7.104)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-127" data-name="dot_yellow" transform="translate(831.539 261.896)">
+            <ellipse id="Ellipse_40-204" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.461 0.104)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-204" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.461 7.104)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-128" data-name="dot_yellow" transform="translate(51.539 61.896)">
+            <ellipse id="Ellipse_40-205" data-name="Ellipse 40" cx="12" cy="12.5" rx="12" ry="12.5" transform="translate(0.461 0.104)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-205" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.461 7.104)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-129" data-name="dot_yellow" transform="translate(1592.165 450.966)">
+            <circle id="Ellipse_40-206" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(-0.165 0.034)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-206" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.835 7.034)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-78" data-name="dot_green" transform="translate(1737.446 708.556)">
+            <ellipse id="Ellipse_40-207" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(-0.446 0.444)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-207" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.554 7.444)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-79" data-name="dot_green" transform="translate(1892 327.323)">
+            <circle id="Ellipse_40-208" data-name="Ellipse 40" cx="12.5" cy="12.5" r="12.5" transform="translate(0 -0.323)" fill="#214d09" opacity="0.6"/>
+            <ellipse id="Ellipse_41-208" data-name="Ellipse 41" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(13 7.677)" fill="#fffff8"/>
+          </g>
+          <g id="dot_yellow-130" data-name="dot_yellow" transform="translate(1844.613 989.77)">
+            <circle id="Ellipse_40-209" data-name="Ellipse 40" cx="12" cy="12" r="12" transform="translate(0.387 0.23)" fill="#ff0" opacity="0.6"/>
+            <circle id="Ellipse_41-209" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.387 7.23)" fill="#fffff8"/>
+          </g>
+          <g id="dot_green-80" data-name="dot_green" transform="translate(1767.446 948.556)">
+            <ellipse id="Ellipse_40-210" data-name="Ellipse 40" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(-0.446 0.444)" fill="#214d09" opacity="0.6"/>
+            <circle id="Ellipse_41-210" data-name="Ellipse 41" cx="3.5" cy="3.5" r="3.5" transform="translate(13.554 7.444)" fill="#fffff8"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

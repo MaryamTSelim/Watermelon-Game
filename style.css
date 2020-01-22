@@ -158,99 +158,29 @@ canvas{
     width: 4%;
 }
 
-@keyframes slide {
-    0%{
-      transform: translate3d(0, 0, 0);
-    }
-    100%{
-      transform: translate3d(0, -1692px, 0);
-    }
-  }
-
-@keyframes move1{
-    from{
-        transform: rotateX(0deg) translateX(0%);
-    }
-    to{
-        transform: rotateX(15deg) translateX(1%);
-    }
-}
-
-@keyframes move2{
-    from{
-        transform: rotateZ(0deg) rotateY(0deg);
-    }
-    to{
-        transform: rotateZ(1deg) rotateY(2deg);
-    }
-}
-
-
-}
-.logo{
-    width: 300px;
-    margin: 4%;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-.btn{
-    background-color: #fc3030;
-    margin: 1%;
-    color: white;
-    border-radius: 30px;
-    width: 250px;
-    border: none;
-    justify-content: center;
-    text-align: center;
-    padding:5px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.btn:hover{
-    background-color: #fc303090;
-    border: 2px solid #fc3030; 
-}
-
-
-.background{
-    overflow: hidden;
-    position: absolute;
-    height: 100vh;
-    width: 100vw; 
-}
-
-.dots{
-    background: url("assets/dots.svg") repeat-x;
-    height: 5076px;
-    width: 100vw;
-    animation: slide 60s linear infinite;
-}
-
-.leaves{
-    position: absolute;
+.win_container{
     display: flex;
-    width: 120vw;
-    height: 120vh; 
-    z-index: 100;
-    margin: 0;
-    padding: 0;
+    flex-direction: column;
     top:0;
+    width: 100vw;
+    height: 100vh;
+    position:absolute;
+    z-index: 200;
+    text-align: center;
 }
 
-#leaves_background{
-    margin: 0;
-    padding: 0;
-    top:0;
-    animation: move1 3s ease-in-out infinite alternate;
+.win_header{
+    font-size: 5rem;
+    margin: auto;
 }
-#leaves_part1{
-    animation: move1 2s ease-in-out infinite alternate;
+
+.win_score{
+    padding: 2%;
+    font-size: xx-large;
+    color: #FC3030;
 }
-#leaves_part2{
-    animation: move2 2s ease-in-out infinite alternate;
-}
+
+
 
 
 
@@ -280,8 +210,3 @@ canvas{
         transform: rotateZ(1deg) rotateY(2deg);
     }
 }
-/* 
-canvas {
-    width: 100%;
-    height: 100%;
-} */

@@ -168,12 +168,12 @@ let seedAnimationInterval = window.setInterval(() => {
     seeds.forEach((s, i) => {
         if (s.y > charY && s.y <= (charY + charHeight) && s.x > charX && s.x <= (charX + charWidth)) {
             heartCounter--;
+            $('#eatSeed')[0].play();
             if (heartCounter == 0) {
                 console.log("Game Over");
             }
-
             seeds.splice(i, 1);
-            change_charSource("../assets/girlSeed.svg");
+            change_charSource("assets/girlSeed.svg");
             draw_character(ctx, charX, charY, charWidth, charHeight);
         }
 
@@ -191,8 +191,9 @@ let sliceAnimationInterval = window.setInterval(() => {
     slices.forEach((s, i) => {
         if (s.y > charY && s.y <= (charY + charHeight) && s.x > charX && s.x <= (charX + charWidth)) {
             scoreCounter += 10;
+            $('#eatSlice')[0].play();
             slices.splice(i, 1);
-            change_charSource("../assets/girlEat.svg");
+            change_charSource("assets/girlEat.svg");
             draw_character(ctx, charX, charY, charWidth, charHeight);
         }
         if (s.y == 700) {
@@ -206,7 +207,7 @@ let sliceAnimationInterval = window.setInterval(() => {
 
 
 let characterChange = window.setInterval(() => {
-    change_charSource("../assets/girlDefault.svg");
+    change_charSource("assets/girlDefault.svg");
 }, 2000);
 
 

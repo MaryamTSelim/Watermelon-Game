@@ -1,46 +1,47 @@
+//import modules
+import { draw_background } from "./scripts/Background.js";
+import { draw_font } from "./scripts/Font.js";
+import { draw_heart } from "./scripts/Hearts.js";
+import { draw_scoreBox } from "./scripts/ScoreBox.js";
+import { Watermelon } from "./scripts/Watermelon.js";
+import { draw_watermelon_half } from "./scripts/Watermelons.js";
+import { draw_knife } from "./scripts/Knife.js";
+import { draw_character, change_charSource } from "./scripts/Character.js";
+import { draw_water } from "./scripts/Water.js";
+import { seedConstructor } from "./scripts/Seed.js";
+import { draw_seed } from "./scripts/Seeds.js";
+import { sliceConstructor } from "./scripts/Slice.js";
+import { draw_slice } from "./scripts/Slices.js";
+
+
 //select canavs, set canavs width + height
 var canvas = $('#myCanvas')[0];
-ctx = canvas.getContext('2d');
+var ctx = canvas.getContext('2d');
 canvas.width = window.innerWidth - 5;
 canvas.height = window.innerHeight - 7;
 
-
 //declare variables
-var heartX = 80,
-    heartY, sliceX, sliceY;
-var no_level = 1;
-
+var level_no = 1, heartCounter = 3, 
+    watermelons = [], scoreCounter = 0, 
+    seeds = [], slices = [];
 
 //water variables
-var waterRX, waterRY,
-    waterLX, waterLY,
-    waterW = 70,
-    waterH = 90,
+var waterRX, waterRY, 
+    waterLX, waterLY, 
+    waterW = 70, waterH = 90, 
     waterAppear = false;
 
 //character variables
-var charWidth = 100,
-charHeight = 150,
-charX = canvas.width / 2 - (charWidth / 2),
-charY = canvas.height - charHeight;
-
+var charWidth = 100, charHeight = 150, 
+    charX = canvas.width / 2 - (charWidth / 2), 
+    charY = canvas.height - charHeight;
 
 //knife variables
-var wKnife = 65,
-    hKnife = 80,
+var wKnife = 65, hKnife = 80, initialY,
     xKnife = charX + (charWidth * 0.85),
-    yKnife = initialY = charY + charHeight * 0.55,
+    yKnife = initialY = charY + charHeight * 0.55, 
     knifeHitFlag = true;
 
-
-var watermelons = [];
-//watermelon function constructor
-function Watermelon(xPoint, yPoint, wSize, hSize) {
-    this.xPoint = xPoint;
-    this.yPoint = yPoint;
-    this.wSize = wSize;
-    this.hSize = hSize;
-}
 
 //create watermelon objects function
 function createWatermelones() {
@@ -58,157 +59,37 @@ function createWatermelones() {
         }
     }
 }
+
 createWatermelones();
-var counter = 0;
-//draw font function
-function drawFont() {
-    ctx.font = "23px Comic Sans MS";
-    ctx.fillStyle = "#214D09";
-    ctx.fillText("LEVEL " + no_level, 10, 40);
-}
-
-function drawFont1() {
-    ctx.font = "23px Comic Sans MS";
-    ctx.fillStyle = "#214D09";
-    ctx.fillText("Score: " + counter, 289, 40);
-}
-
-//draw character function
-character = new Image();
-character.src = "assets/girlDefault.svg";
-
-function drawCharacter(charX, charY, charWidth, charHeight) {
-    ctx.drawImage(character, charX, charY, charWidth, charHeight)
-
-}
-
-//draw background function
-// background_img = new Image();
-// background_img.src = "assets/background.svg";
-
-// function draw_background() {
-//     ctx.drawImage(background_img, 0, 0);
-
-// }
-
-//draw score box function
-score_box = new Image();
-score_box.src = "assets/scoreBox.svg";
-
-function draw_score_box() {
-    ctx.drawImage(score_box, 250, 10, 170, 45);
-
-}
-
-//draw heart function
-heart = new Image();
-heart.src = "assets/heart.png";
-var heartCounter = 3;
-
-function draw_heart(no_hearts) {
-    heartX = 80;
-    for (let index = 0; index < no_hearts; index++) {
-        heartX += 40;
-        ctx.drawImage(heart, heartX, 20, 25, 25);
-
-    }
-
-}
-
-//draw watermelon function
-watermelon_half = new Image();
-watermelon_half.src = "assets/watermelon_half.svg";
-
-function draw_watermelon_half() {
-    for (let i = 0; i < watermelons.length; i++) {
-        if (watermelons[i] !== null) {
-            ctx.drawImage(watermelon_half, watermelons[i].xPoint, watermelons[i].yPoint, watermelons[i].wSize, watermelons[i].hSize);
-        }
-    }
-
-}
-
-//draw slice function
-let slices = []
-
-slice = new Image();
-slice.src = "assets/slice.svg";
-
-function sliceConstructor(x, y) {
-    this.x = x;
-    this.y = y;
-}
-
-function draw_slice() {
-    slices.forEach(s => {
-        ctx.drawImage(slice, s.x, s.y, 30, 30)
-    })
-
-}
 
 
-//draw seed function
-let seeds = [];
-seed = new Image();
-seed.src = "assets/seed.svg";
-
-function seedConstructor(x, y) {
-    this.x = x;
-    this.y = y;
-}
-
-function draw_seed() {
-    seeds.forEach(s => {
-        ctx.drawImage(seed, s.x, s.y, 10, 15);
-    })
-
-}
-
-
-//draw water function
-waterL = new Image();
-waterL.src = "assets/waterLeft.svg";
-waterR = new Image();
-waterR.src = "assets/waterRight.svg";
-
-function draw_water(waterLX, waterLY, waterRX, waterRY) {
-    ctx.drawImage(waterL, waterLX, waterLY, waterW, waterH);
-    ctx.drawImage(waterR, waterRX, waterRY, waterW, waterH);
-
-}
-
-
-//draw knife function
-knife = new Image();
-knife.src = "assets/knife.svg";
-
-function draw_knife(xKnife, yKnife, wKnife, hKnife) {
-    ctx.drawImage(knife, xKnife, yKnife, wKnife, hKnife);
-}
-
+//draw game
 function drawGame() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
-    drawFont();
-    drawFont1()
-    draw_heart(heartCounter);
-    draw_score_box();
-    //draw knife
-    draw_knife(xKnife, yKnife, wKnife, hKnife);
-    //draw character
-    drawCharacter(charX, charY, charWidth, charHeight);
+    draw_font(ctx, "Level ", level_no, 10, 40);
+    draw_font(ctx, "Score: ", scoreCounter, 280, 40);
+    draw_heart(ctx, heartCounter);
+    draw_scoreBox(ctx);
 
     //draw watermelons
-    draw_watermelon_half()
+    draw_watermelon_half(ctx, watermelons, watermelons.length);
+
+    //draw knife
+    draw_knife(ctx, xKnife, yKnife, wKnife, hKnife);
+
+    //draw character
+    change_charSource("../assets/girlDefault.svg");
+    draw_character(ctx, charX, charY, charWidth, charHeight);
 
     //draw seed
-    draw_seed();
+    draw_seed(ctx, seeds);
 
     //draw slice
-    draw_slice();
+    draw_slice(ctx, slices);
 
     //draw water
     if (waterAppear) {
-        draw_water(waterLX, waterLY, waterRX, waterRY);
+        draw_water(ctx, waterLX, waterLY, waterRX, waterRY);
     }
 }
 
@@ -216,22 +97,28 @@ function drawGame() {
 document.onkeydown = function(e) {
     if (e.keyCode === 39 && charX <= canvas.width - charWidth - 10) {
         charX = charX + 7;
-        xKnife = xKnife + 7;
+        if (yKnife === initialY) {
+            xKnife = xKnife + 7;
+        }
     } else if (e.keyCode === 37 && charX > 10) {
         charX = charX - 7;
-        xKnife = xKnife - 7;
+        if (yKnife === initialY) {
+            xKnife = xKnife - 7;
+        }
     }
     drawGame();
 }
 
+//throw knife
 document.onkeyup = function(e) {
         if (e.keyCode === 32) {
             $('#throwKnife')[0].play();
             let knifeInterval = window.setInterval(function() {
                 if (yKnife > 20 && knifeHitFlag) {
-                    yKnife -= 5;
+                    yKnife -= 10;
                 } else {
                     yKnife = initialY;
+                    xKnife = charX + (charWidth * 0.85),
                     knifeHitFlag = true;
                     drawGame();
                     window.clearInterval(knifeInterval)
@@ -250,13 +137,14 @@ document.onkeyup = function(e) {
                         slices.push(new sliceConstructor(el.xPoint + el.wSize / 2, el.yPoint));
                         yKnife = initialY
                         watermelons[watermelons.indexOf(el)] = null;
-                        counter += 5;
+                        scoreCounter += 5;
                     }
                 });
-            }, 10);
+            }, 5);
         }
-    }
-    // console.log(char.x,char.y);
+}
+
+
 let seedInterval = window.setInterval(() => {
     let check = true //Checks if there is any watermelon left
     watermelons.forEach(w => {
@@ -273,29 +161,39 @@ let seedInterval = window.setInterval(() => {
         seeds.push(new seedConstructor(w.xPoint + w.wSize / 2, w.yPoint + w.hSize))
     }
     drawGame();
-}, 1000)
+}, 1000);
+
 
 let seedAnimationInterval = window.setInterval(() => {
     seeds.forEach((s, i) => {
         if (s.y > charY && s.y <= (charY + charHeight) && s.x > charX && s.x <= (charX + charWidth)) {
             heartCounter--;
+            if (heartCounter == 0) {
+                console.log("Game Over");
+            }
+
             seeds.splice(i, 1);
-            character.src = "assets/girlSeed.svg";
+            change_charSource("../assets/girlSeed.svg");
+            draw_character(ctx, charX, charY, charWidth, charHeight);
         }
+
         if (s.y == 700) {
             seeds.splice(i, 1);
         }
+
         s.y += 5
     });
     drawGame();
 }, 50);
+
 
 let sliceAnimationInterval = window.setInterval(() => {
     slices.forEach((s, i) => {
         if (s.y > charY && s.y <= (charY + charHeight) && s.x > charX && s.x <= (charX + charWidth)) {
-            counter += 10;
+            scoreCounter += 10;
             slices.splice(i, 1);
-            character.src = "assets/girlEat.svg";
+            change_charSource("../assets/girlEat.svg");
+            draw_character(ctx, charX, charY, charWidth, charHeight);
         }
         if (s.y == 700) {
             slices.splice(i, 1);
@@ -306,12 +204,14 @@ let sliceAnimationInterval = window.setInterval(() => {
     drawGame();
 }, 50);
 
+
 let characterChange = window.setInterval(() => {
-    character.src = "assets/girlDefault.svg";
+    change_charSource("../assets/girlDefault.svg");
 }, 2000);
 
+
 let newGame = window.setTimeout(() => {
-    // document.getElementById("bgMusic").play();
+    // $("#bgMusic").play();
     drawGame();
     window.clearTimeout(newGame)
 }, 0);

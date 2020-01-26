@@ -85,7 +85,7 @@ function draw_game() {
 
     //draw fonts
     draw_font(ctx, "Level ", level_no, 20, 40);
-    draw_font(ctx, "Score: ", scoreCounter, 2650, 42);
+    draw_font(ctx, "Score: ", scoreCounter, 250, 42);
 
     //draw hearts
     draw_heart(ctx, heartCounter);
